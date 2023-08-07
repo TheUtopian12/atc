@@ -3,12 +3,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div
-      className="hero min-h-screen"
-      style={{
-        backgroundImage: "url(/assets/img/Backgrounds/Portadalow.jpg)",
-      }}
-    >
+    <div className="hero min-h-screen bg-[url('/assets/img/Backgrounds/landing_vertical.jpg')] sm:bg-[url('/assets/img/Backgrounds/Portadalow.jpg')]">
       <div className="hero-overlay bg-opacity-50"></div>
       <div className="hero-content text-left text-neutral-content container">
         <div className="absolute md:top-[50%] md:left-[20%]">

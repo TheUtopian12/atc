@@ -1,8 +1,11 @@
-import Hero from '@/components/Hero'
-import Services from '@/components/Services'
+
+import Services from '@/pages/ServicesMain/Services'
 import Layout from '@/layout/Layout'
 import Head from 'next/head'
 import { Parallax, Background } from 'react-parallax'
+import Hero from './Hero'
+import Offer from './Offer'
+import Advisory from './Advisory'
 
 
 export default function Home() {
@@ -18,19 +21,37 @@ export default function Home() {
       </Head>
 
       <Hero/>
-      <Parallax
-          
-          bgImage='/assets/img/Backgrounds/Servicios.jpg'
-          bgImageAlt="the dog"
-          strength={-200}
-      >
-        
-      <section className='h-[200px] '>
+          <Parallax
+              
+              bgImage='/assets/img/Backgrounds/low-poly-grid-haikei.svg'
+              bgImageAlt="the dog"
+              strength={-200}
+              className='hidden md:grid'
+          >
+            
+          <section className='h-[150px] '>
 
-      </section>
-    </Parallax>
+          </section>
+        </Parallax>
+        <Parallax
+              
+              bgImage='/assets/img/Backgrounds/low-poly-grid-haikei mobile.svg'
+              bgImageAlt="the dog"
+              strength={-200}
+              className=' md:hidden'
+          >
+            
+          <section className='h-[100px] '>
+
+          </section>
+        </Parallax>
     
       <Services/>
+      <Offer/>
+      <Advisory/>
+
+
+
      </Layout>
     </>
   )

@@ -3,17 +3,12 @@ import Service from "./ManagedServices/Service";
 
 const Services = () => {
   return (
-    <div
-      className="bg-[#e1e1e1]  h-[120vh] pt-28 bg-cover"
-      style={{
-        backgroundImage: "url(/assets/img/Backgrounds/Servicios.jpg)",
-      }}
-    >
-      <h1 className="text-white pb-10 text-3xl sm:text-7xl lg:text-5xl text-center font-bold">
+    <div className="h-[180vh] sm:h-[130vh] pt-20 bg-cover bg-[url('/assets/img/Backgrounds/Servicios.jpg')]">
+      <h1 className="text-white sm:pb-10 text-3xl md:text-7xl lg:text-5xl text-center font-bold">
         Managed Services
       </h1>
 
-      <section className="lg:flex justify-evenly lg:pt-10 ">
+      <section className="grid sm:grid-cols-2 lg:grid-cols-4 lg:pt-10 ">
         <Service
           id="1"
           title="Structured cabling"
@@ -39,7 +34,7 @@ const Services = () => {
           ancho="80"
         />
       </section>
-      <section className="lg:flex justify-evenly lg:pt-36 ">
+      <section className="grid sm:grid-cols-2 lg:grid-cols-4 lg:pt-36 ">
         <Service
           id="5"
           title="Cybersecurity"
@@ -58,7 +53,12 @@ const Services = () => {
           image="asesoramiento"
           ancho="80"
         />
-        <Service id="7" title="After Sales" image="after_sales" ancho="80" />
+        <Service
+          id="8"
+          title="After Sales"
+          image="iconoa fter sales"
+          ancho="80"
+        />
       </section>
     </div>
   );
