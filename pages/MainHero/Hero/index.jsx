@@ -54,14 +54,14 @@ const Hero = () => {
               className="w-[25px] h-[25px] sm:w-[50px] sm:h-[50px]"
             />
             <Image
-              src={"/assets/img/icons/icono5.png"}
+              src={"/assets/img/icons/asesoramiento.png"}
               width={50}
               height={50}
               alt="Icono de servicio"
               className="w-[25px] h-[25px] sm:w-[50px] sm:h-[50px]"
             />
             <Image
-              src={"/assets/img/icons/Asesoramiento de red.png"}
+              src={"/assets/img/icons/iconoa fter sales.png"}
               width={50}
               height={50}
               alt="Icono de servicio"
