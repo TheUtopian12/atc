@@ -12,6 +12,9 @@ import Wifi from './MainHero/Wifi'
 import HighAvailability from './MainHero/HighAvailability'
 import VideoSurveillance from './MainHero/VideoSurveillance'
 import Cybersecurity from './MainHero/Cybersecurity'
+import Interconection from './MainHero/Interconection'
+import Consulting from './MainHero/Consulting'
+import AfterSales from './MainHero/AfterSales'
 
 
 export default function Home() {
@@ -36,6 +39,9 @@ export default function Home() {
       <HighAvailability/>
       <VideoSurveillance/>
       <Cybersecurity/>
+      <Interconection/>
+      <Consulting/>
+      <AfterSales/>
 
 
      </Layout>
