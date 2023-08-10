@@ -25,34 +25,34 @@ const AfterSales = () => {
               alt="interconection"
               className="w-[500px] mt-14"
             />
-            <p className="text-white text-xl text-center mt-10">
+            <div className="text-white text-xl text-center mt-10">
               <span className="font-bold">Structured cabling</span>
               <ul>
                 <li>Technical Support </li>
                 <li>Maintenance </li>
                 <li>Wired network growth.</li>
               </ul>
-            </p>
+            </div>
           </article>
           <article>
             <Image src={Post_2} alt="interconection" className="w-[500px]" />
-            <p className="text-white text-xl text-center mt-10">
+            <div className="text-white text-xl text-center mt-10">
               <span className="font-bold">Cabling certifications (safety)</span>
               <ul>
                 <li>Non-intervention communication audit</li>
               </ul>
-            </p>
+            </div>
           </article>
           <article>
             <Image src={Post_3} alt="interconection" className="w-[500px]" />
-            <p className="text-white text-xl text-center mt-10">
+            <div className="text-white text-xl text-center mt-10">
               <span className="font-bold">
                 Implant of specialized technicians
               </span>
               <ul>
                 <li>We incorporate expert members to your work team.</li>
               </ul>
-            </p>
+            </div>
           </article>
         </section>
       </section>
