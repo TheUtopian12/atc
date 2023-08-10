@@ -31,7 +31,7 @@ const Sidebar = () => {
             <div className="drawer-side">
               <label htmlFor="my-drawer" className="drawer-overlay"></label>
               <ul
-                className="menu gap-7 pt-10 p-4 w-64 h-full bg-gray-800  text-base-content "
+                className="menu gap-0 pt-10 p-4 w-64 h-[100vh] bg-gray-800  text-base-content "
                 data-theme="dark"
               >
                 <li>
@@ -54,7 +54,7 @@ const Sidebar = () => {
                   </a>
                 </li>
                 <li>
-                  <details close>
+                  <details open>
                     <summary>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -95,7 +95,7 @@ const Sidebar = () => {
                         <a>Network Consulting</a>
                       </li>
                       <li>
-                        <a>After sales</a>
+                        <a>After Sales</a>
                       </li>
                     </ul>
                   </details>
