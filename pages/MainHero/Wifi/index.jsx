@@ -1,7 +1,6 @@
 import ServiceBadge from "@/components/ServiceBadge";
 import Image from "next/image";
-import React from "react";
-import Wifi_logo_1 from "../../../public/assets/img/Wifi/WI-FI_CERTIFIED.png";
+import Wifi_logo_1 from "@/public/assets/img/Wifi/Wi-Fi_CERTIFIED.png";
 import Wifi_logo_2 from "../../../public/assets/img/Wifi/wifi.png";
 
 import Aruba from "../../../public/assets/img/Wifi/logos/Aruba_Networks_logo.png";
