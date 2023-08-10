@@ -44,7 +44,9 @@ const Cybersecurity = () => {
           <ServiceBadge id="5" image="Ciberseguridad_1" />
         </section>
         <div className=" text-white text-4xl text-center pt-14 ">
-          <h1 className="pb-12 font-bold text-6xl">Cybersecurity</h1>
+          <h1 className="pb-12 font-bold text-3xl lg.text-6xl">
+            Cybersecurity
+          </h1>
         </div>
 
         <article className="lg:flex justify-evenly mt-20">
@@ -84,7 +86,7 @@ const Cybersecurity = () => {
           <Image
             src={Diagrama}
             alt="diagrama"
-            className="absolute right-0 mt-64 lg:w-[900px]"
+            className="absolute right-0 bottom-0 lg:w-[900px]"
           />
         </article>
       </section>

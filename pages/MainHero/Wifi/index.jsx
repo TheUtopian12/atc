@@ -101,7 +101,7 @@ const Wifi = () => {
         </div>
       </section>
 
-      <section className=" bg-[url('/assets/img/Backgrounds/Redes_inalambricas_3_low.jpg')] bg-cover h-[155vh] md:h-[120vh] xl:h-[150vh]  relative">
+      <section className=" bg-[url('/assets/img/Backgrounds/Redes_inalambricas_3_low.jpg')] bg-cover h-[160vh] md:h-[120vh] xl:h-[150vh]  relative">
         <section className="absolute top-0 right-10">
           <ServiceBadge id="2" image="Redes inalambricas_1" />
         </section>
@@ -142,7 +142,7 @@ const Wifi = () => {
           </div>
         </div>
 
-        <div className="absolute bottom-10 lg:left-10 mx-10">
+        <div className="absolute  bottom-10 lg:left-10 mx-10">
           <ul className="text-white font-bold " type="disc">
             <li>
               A maintenance policy is required for these last two items, as they

@@ -3,8 +3,13 @@ import { AiFillCheckCircle } from "react-icons/ai";
 const Offer = () => {
   return (
     <div className="bg-[url('/assets/img/Backgrounds/offer.jpg')] bg-cover h-[110vh] xl:h-[120vh] relative">
-      <div className="container  text-white text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl text-center xl:text-right xl:w-[50%] xl:pr-5 absolute top-[20%] xl:top-[10%] lg:right-0 lg:pr-10 xl:right-0">
-        <h1 className="mb-12 font-bold text-6xl">What do we offer?</h1>
+      <div
+        className="container  text-white text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl 
+      text-center xl:text-right xl:w-[50%] xl:pr-5 absolute top-[10%] xl:top-[10%] lg:right-0 lg:pr-10 xl:right-0"
+      >
+        <h1 className="mb-12 font-bold text-3xl lg:text-6xl">
+          What do we offer?
+        </h1>
         <p className="mb-12">
           <AiFillCheckCircle className="text-green-500 inline-flex " /> We
           provide solutions for projects and help the customer with a model that
