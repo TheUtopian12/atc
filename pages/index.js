@@ -1,5 +1,5 @@
 
-import Services from '@/pages/MainHero/ServicesMain/Services'
+import Services from '@/pages/MainHero/ServicesMain'
 import Layout from '@/layout/Layout'
 import Head from 'next/head'
 import { Parallax, Background } from 'react-parallax'
@@ -41,7 +41,7 @@ export default function Home() {
       <Cybersecurity/>
       <Interconection/>
       <Consulting/>
-      <AfterSales/>
+      <AfterSales/> 
 
 
      </Layout>

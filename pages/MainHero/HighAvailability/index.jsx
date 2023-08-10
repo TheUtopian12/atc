@@ -14,12 +14,14 @@ const HighAvailability = () => {
           <ServiceBadge id="3" image="Alta disponibilidad_1" />
         </section>
 
-        <div className=" text-white text-4xl text-center pt-14 ">
+        <div className=" text-white text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl text-center pt-14 ">
           <div className="pl-0">
-            <h1 className="mb-0 font-bold text-6xl">High availability</h1>
+            <h1 className="mb-0 font-bold text-3xl lg:text-6xl">
+              High availability
+            </h1>
           </div>
-          <article className="absolute top-[25%] left-[10%] w-[1000px]">
-            <p className="container">
+          <article className="mt-36 lg:mr-28 lg:w-[1000px] ">
+            <p className="container mx-auto">
               Nowadays, a company has at least two internet services to protect
               its operation or at least its critical services or users, but
               normally the solution is unfinished, because although the
@@ -31,20 +33,22 @@ const HighAvailability = () => {
             </p>
             <Image
               src={Disponibilidad}
-              className="w-[700px] pt-10"
+              className="w-auto] lg:w-[700px] pt-10"
               alt="Imagen disponibilidad"
             />
           </article>
         </div>
       </section>
-      <section className="bg-[url('/assets/img/Backgrounds/alta_disponibilidad_2_low.jpg')] bg-cover h-[110vh]  relative">
+      <section className=" bg-[url('/assets/img/Backgrounds/alta_disponibilidad_2_low.jpg')] bg-cover md:h-[150vh] pb-10  relative">
         <section className="absolute top-0 right-10">
           <ServiceBadge id="3" image="Alta disponibilidad_1" />
         </section>
 
-        <div className="pl-64 text-white text-4xl text-center pt-14 ">
+        <div className="lg:pl-64 xl:pl-80 text-white text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl text-center pt-14 ">
           <div className="pl-0">
-            <h1 className="mb-0 font-bold text-6xl">High availability</h1>
+            <h1 className="mb-0 font-bold text-3xl lg:text-6xl">
+              High availability
+            </h1>
           </div>
           <article className="">
             <div className=" text-white text-3xl text-center pt-14 ">
@@ -81,23 +85,25 @@ const HighAvailability = () => {
         </div>
       </section>
 
-      <section className="bg-[url('/assets/img/Backgrounds/alta_disponibilidad_3.jpg')] bg-cover h-[100vh]  relative">
+      <section className=" bg-[url('/assets/img/Backgrounds/alta_disponibilidad_3.jpg')] bg-cover   relative">
         <section className="absolute top-0 right-10">
           <ServiceBadge id="3" image="Alta disponibilidad_1" />
         </section>
 
         <div className=" text-white text-4xl text-center pt-14 ">
           <div className="pl-0">
-            <h1 className="mb-0 font-bold text-6xl">High availability</h1>
-            <h1 className="mb-0 font-normal text-3xl">
+            <h1 className="mb-0 font-bold text-3xl lg:text-6xl">
+              High availability
+            </h1>
+            <h1 className="mb-0 font-normal text-lg lg:text-3xl">
               Technology, applications and brands:
             </h1>
           </div>
         </div>
 
-        <article className="flex justify-center items-center pt-36 gap-20 ">
+        <article className="grid grid-cols-1 lg:flex justify-center items-center pt-36 gap-20 ">
           <Image src={SDWAN} alt="Micro" className="w-[850px]" />
-          <div className="grid grid-cols-1 place-items-center gap-2 border-2 rounded-[80px] w-[600px] h-[600px]">
+          <div className="grid grid-cols-1 place-items-center gap-2 lg:border-2 lg:rounded-3xl xl:rounded-[80px] lg:w-[600px] lg:h-[600px]">
             <Image src={Orquestador} alt={"Orquestador"} className="w-56" />
             <Image src={Peplink} alt={"Peplink"} className="w-56" />
             <Image src={Mikro} alt={"Mikro"} className="w-56" />

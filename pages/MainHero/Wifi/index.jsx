@@ -18,26 +18,28 @@ import Detalle from "@/public/assets/img/Wifi/detalle.png";
 const Wifi = () => {
   return (
     <>
-      <section className="bg-[url('/assets/img/Backgrounds/Servicios.jpg')] bg-cover h-[100vh]  relative">
-        <section className="absolute top-0 left-10">
+      <section className="bg-[url('/assets/img/Backgrounds/Servicios.jpg')] bg-cover  relative">
+        <section className=" absolute top-0 left-10">
           <ServiceBadge id="2" image="Redes inalambricas_1" />
         </section>
-        <section className="absolute lg:right-[28%] lg:-top-10">
+        <section className="absolute hidden lg:block lg:right-[12%] lg:top-10 xl:right-[20%] xl:top-10 2xl:right-[22%] 2xl:top-10">
           <Image src={Detalle} alt="Detalle" className="w-60" />
         </section>
 
-        <div className=" text-white text-3xl text-center pt-14 ">
-          <h1 className="mb-12 font-bold text-6xl">Wireless Networks (WiFi)</h1>
+        <div className=" text-white text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl text-center pt-14 ">
+          <h1 className="mt-20 sm:mb-12 font-bold text-3xl lg:text-6xl">
+            Wireless Networks (WiFi)
+          </h1>
 
-          <article className="grid place-content-center pt-32">
-            <div className="container  w-[700px] border-[5px] border-white  rounded-3xl lg:-translate-x-80 p-8">
+          <article className="grid place-content-center pt-10 sm:pt-32">
+            <div className="container sm:w-[700px] border-[5px] border-white  rounded-3xl lg:-translate-x-40 xl:-translate-x-80 p-8">
               <p>
                 Wireless networks allow portable devices such as laptops,
                 tablets or cell phones to remain connected and with the
                 advantage of having mobility within the same office and network.
               </p>
             </div>
-            <div className="container  w-[700px] border-[5px] border-green-500  rounded-3xl mt-24 translate-x-52 p-8">
+            <div className="container  sm:w-[700px] border-[5px] border-green-500  rounded-3xl mt-24 lg:translate-x-20 xl:translate-x-52 p-8">
               <p>
                 Nowadays, it is increasingly common to suffer from poor
                 performance of a wireless network, either by incorrect design,
@@ -48,20 +50,22 @@ const Wifi = () => {
           </article>
         </div>
       </section>
-      <section className="bg-[url('/assets/img/Backgrounds/Redes_inalambricas_2_low.jpg')] bg-cover h-[120vh]  relative">
+      <section className=" bg-[url('/assets/img/Backgrounds/Redes_inalambricas_2_low.jpg')] bg-cover h-[140vh] xl:h-[150vh]  relative">
         <section className="absolute top-0 right-10">
           <ServiceBadge id="2" image="Redes inalambricas_1" />
         </section>
 
-        <div className=" text-white text-3xl text-center pt-14 ">
+        <div className=" text-white text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl text-center pt-14 ">
           <div className="text-left pl-10">
-            <h1 className="mb-0 font-bold text-6xl">
+            <h1 className="mb-0 font-bold text-3xl lg:text-6xl">
               Wireless Networks (WiFi)
             </h1>
-            <h2 className="mb-12 font-normal text-3xl">Service with policy</h2>
+            <h2 className="mb-12 font-normal text-xl lg:text-3xl">
+              Service with policy
+            </h2>
           </div>
           <div className="flex justify-center">
-            <article className="pt-10 lg:w-[1200px] absolute lg:right-24">
+            <article className="container sm:pt-10 lg:w-[1200px] absolute xl:right-24">
               <h2 className="mb-12">Service process:</h2>
               <p className="mb-12">
                 <span className="text-green-500 font-bold">1.</span> Technical
@@ -97,20 +101,20 @@ const Wifi = () => {
         </div>
       </section>
 
-      <section className="bg-[url('/assets/img/Backgrounds/Redes_inalambricas_3_low.jpg')] bg-cover h-[105vh]  relative">
+      <section className=" bg-[url('/assets/img/Backgrounds/Redes_inalambricas_3_low.jpg')] bg-cover h-[155vh] md:h-[120vh] xl:h-[150vh]  relative">
         <section className="absolute top-0 right-10">
           <ServiceBadge id="2" image="Redes inalambricas_1" />
         </section>
 
-        <div className=" text-white text-3xl text-center pt-14 ">
+        <div className=" text-white  text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl text-center pt-14 ">
           <div className="text-left pl-10">
-            <h1 className="mb-0 font-bold text-6xl">
+            <h1 className="mb-0 font-bold text-3xl lg:text-6xl">
               Wireless Networks (WiFi)
             </h1>
             <h2 className="mb-12 font-normal text-3xl">Service with policy</h2>
           </div>
           <div className="flex justify-center">
-            <article className="pt-10 lg:w-[1200px] absolute ">
+            <article className="pt-10 xl:w-[1200px] absolute ">
               <p className="mb-12">
                 <span className="text-green-500 font-bold">5.</span> Service
                 delivery <br /> The project is released together with the
@@ -138,12 +142,13 @@ const Wifi = () => {
           </div>
         </div>
 
-        <div className="absolute bottom-10 left-10">
+        <div className="absolute bottom-10 lg:left-10 mx-10">
           <ul className="text-white font-bold " type="disc">
             <li>
               A maintenance policy is required for these last two items, as they
               are constant due to the nature of the service.
             </li>
+            <br />
             <li>
               We can offer the conventional service policy or Full Service
               (replacement of equipment due to failure at our expense, etc.).
@@ -152,26 +157,26 @@ const Wifi = () => {
         </div>
       </section>
 
-      <section className="bg-[url('/assets/img/Backgrounds/Redes_inalambricas_3_low.jpg')] bg-cover h-[100vh]  relative">
+      <section className=" bg-[url('/assets/img/Backgrounds/Redes_inalambricas_3_low.jpg')] bg-cover  relative">
         <section className="absolute top-0 right-10">
           <ServiceBadge id="2" image="Redes inalambricas_1" />
         </section>
 
         <div className=" text-white text-3xl text-center pt-14 ">
           <div className="text-rigth pl-10">
-            <h1 className="mb-0 font-bold text-6xl">
+            <h1 className="mb-0 font-bold text-3xl lg:text-6xl">
               Wireless Networks (WiFi)
             </h1>
-            <h2 className="mb-12 font-normal text-3xl">
+            <h2 className="mb-12 font-normal text-xl lg.text-3xl">
               Technology, applications and brands:
             </h2>
           </div>
 
-          <article className="flex justify-center items-center gap-10">
+          <article className="grid grid-cols-1 lg:grid-cols-3 lg:pt-10 xl:flex justify-center items-center gap-10 mx-10 pb-10">
             <Image
               src={Wifi_logo_1}
               alt="Wifi logo"
-              className="lg:w-[400px] lg:h-[250px]"
+              className=" lg:w-[400px] lg:h-[250px]"
             />
             <Image
               src={Wifi_logo_2}

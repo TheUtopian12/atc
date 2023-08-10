@@ -5,8 +5,11 @@ const Advisory = () => {
   return (
     <div>
       <div className="bg-[url('/assets/img/Backgrounds/asesoria_low.jpg')] bg-cover h-[110vh] relative">
-        <div className="container text-white text-3xl text-left w-[50%] pl-5 absolute top-[20%] left-0">
-          <h1 className="mb-8 font-bold text-6xl">
+        <div
+          className="container text-white text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl 
+        text-center lg:text-left lg:w-[50%] lg:pl-5 absolute top-24 lg:top-[9%] xl:top-[10px] lg:left-0"
+        >
+          <h1 className="mb-8 font-bold text-3xl lg:text-6xl">
             Advisory and consulting services
           </h1>
           <p className="mb-8">
@@ -23,7 +26,9 @@ const Advisory = () => {
             services.
           </p>
 
-          <h1 className="mb-8 font-bold text-6xl">Telecommunications</h1>
+          <h1 className="mb-8 font-bold text-3xl lg:text-6xl">
+            Telecommunications
+          </h1>
           <p className="mb-8">
             <AiFillCheckCircle className="text-green-500 inline-flex" />
             Consulting and implementation of structured cabling system
