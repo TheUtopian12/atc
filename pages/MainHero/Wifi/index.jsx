@@ -18,7 +18,7 @@ import Detalle from "@/public/assets/img/Wifi/detalle.png";
 const Wifi = () => {
   return (
     <>
-      <section className="bg-[url('/assets/img/Backgrounds/servicios.jpg')] bg-cover h-[100vh]  relative">
+      <section className="bg-[url('/assets/img/Backgrounds/Servicios.jpg')] bg-cover h-[100vh]  relative">
         <section className="absolute top-0 left-10">
           <ServiceBadge id="2" image="Redes inalambricas_1" />
         </section>
