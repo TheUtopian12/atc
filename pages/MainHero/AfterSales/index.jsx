@@ -13,9 +13,9 @@ const AfterSales = () => {
         </section>
 
         <div className=" text-white text-3xl text-center pt-14">
-          <h1 className="pb-12 font-bold text-6xl">
+          <span className="pb-12 font-bold text-6xl">
             After-Sales Services (by policy or event)
-          </h1>
+          </span>
         </div>
 
         <section className="flex justify-center items-center pt-32  gap-10 ">
@@ -26,7 +26,7 @@ const AfterSales = () => {
               className="w-[500px] mt-14"
             />
             <p className="text-white text-xl text-center mt-10">
-              <h1 className="font-bold">Structured cabling</h1>
+              <span className="font-bold">Structured cabling</span>
               <ul>
                 <li>Technical Support </li>
                 <li>Maintenance </li>
@@ -37,7 +37,7 @@ const AfterSales = () => {
           <article>
             <Image src={Post_2} alt="interconection" className="w-[500px]" />
             <p className="text-white text-xl text-center mt-10">
-              <h1 className="font-bold">Cabling certifications (safety)</h1>
+              <span className="font-bold">Cabling certifications (safety)</span>
               <ul>
                 <li>Non-intervention communication audit</li>
               </ul>
@@ -46,7 +46,9 @@ const AfterSales = () => {
           <article>
             <Image src={Post_3} alt="interconection" className="w-[500px]" />
             <p className="text-white text-xl text-center mt-10">
-              <h1 className="font-bold">Implant of specialized technicians</h1>
+              <span className="font-bold">
+                Implant of specialized technicians
+              </span>
               <ul>
                 <li>We incorporate expert members to your work team.</li>
               </ul>
