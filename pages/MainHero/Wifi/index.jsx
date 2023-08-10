@@ -13,6 +13,7 @@ import omada from "../../../public/assets/img/Wifi/logos/logo omada.png";
 import Tplink from "../../../public/assets/img/Wifi/logos/TPLINK_Logo_2.svg.png";
 
 import Ubiquiti from "../../../public/assets/img/Wifi/logos/Ubiquiti_Logo.png";
+import Detalle from "@/public/assets/img/Wifi/detalle.png";
 
 const Wifi = () => {
   return (
@@ -22,11 +23,7 @@ const Wifi = () => {
           <ServiceBadge id="2" image="Redes inalambricas_1" />
         </section>
         <section className="absolute lg:right-[28%] lg:-top-10">
-          <img
-            src="/assets/img/Wifi/detalle.png"
-            alt="Detalle"
-            className="w-60"
-          />
+          <Image src={Detalle} alt="Detalle" className="w-60" />
         </section>
 
         <div className=" text-white text-3xl text-center pt-14 ">
@@ -182,12 +179,12 @@ const Wifi = () => {
               className="lg:w-[600px] border-2 rounded-[60px] border-green-500"
             />
             <div className="grid grid-cols-2 gap-10">
-              <Image src={Ubiquiti} className="lg:w-48" />
-              <Image src={Tplink} className="lg:w-48" />
-              <Image src={Aruba} className="lg:w-48" />
-              <Image src={eero} className="lg:w-48" />
-              <Image src={Grandstream} className="lg:w-48" />
-              <Image src={omada} className="lg:w-48" />
+              <Image src={Ubiquiti} className="lg:w-48" alt="Logos Wifi" />
+              <Image src={Tplink} className="lg:w-48" alt="Logos Wifi" />
+              <Image src={Aruba} className="lg:w-48" alt="Logos Wifi" />
+              <Image src={eero} className="lg:w-48" alt="Logos Wifi" />
+              <Image src={Grandstream} className="lg:w-48" alt="Logos Wifi" />
+              <Image src={omada} className="lg:w-48" alt="Logos Wifi" />
             </div>
           </article>
         </div>

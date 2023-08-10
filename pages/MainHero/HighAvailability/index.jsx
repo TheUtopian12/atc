@@ -29,7 +29,11 @@ const HighAvailability = () => {
               quickly and effectively, when it should be a simple and routine
               action.
             </p>
-            <Image src={Disponibilidad} className="w-[700px] pt-10" />
+            <Image
+              src={Disponibilidad}
+              className="w-[700px] pt-10"
+              alt="Imagen disponibilidad"
+            />
           </article>
         </div>
       </section>

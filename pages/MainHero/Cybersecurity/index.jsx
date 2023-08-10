@@ -63,15 +63,18 @@ const Cybersecurity = () => {
             <Image
               src={Cybersecurity_2}
               className="w-[400px] absolute left-10"
+              alt="Imagen ciberseguridad"
             />
             <Image
               src={Cybersecurity_1}
               className="w-[400px] absolute left-52 top-40"
+              alt="Imagen ciberseguridad"
             />
 
             <Image
               src={Cybersecurity_3}
               className="w-[400px] absolute left-32 top-80"
+              alt="Imagen ciberseguridad"
             />
           </div>
         </article>
