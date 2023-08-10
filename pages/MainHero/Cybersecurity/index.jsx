@@ -82,7 +82,7 @@ const Cybersecurity = () => {
           <Image
             src={Diagrama}
             alt="diagrama"
-            className="absolute right-0 mt-10"
+            className="absolute right-0 mt-10 w-[900px]"
           />
         </article>
       </section>
