@@ -11,8 +11,10 @@ const VideoSurveillance = () => {
           <ServiceBadge id="4" image="Video vigilancia" />
         </section>
 
-        <div className=" text-white text-3xl text-center pt-14">
-          <h1 className="pb-12 font-bold text-6xl">Video surveillance</h1>
+        <div className=" text-white text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl text-center pt-14">
+          <h1 className="pb-12 font-bold text-3xl lg:text-6xl">
+            Video surveillance
+          </h1>
           <p className="pt-12 container mx-auto">
             Nowadays, having a closed circuit camera system in our company or
             home undoubtedly gives us a sense of tranquility and security, not
@@ -32,8 +34,10 @@ const VideoSurveillance = () => {
           <ServiceBadge id="4" image="Video vigilancia" />
         </section>
 
-        <div className=" text-white text-3xl text-center pt-14">
-          <h1 className="pb-12 font-bold text-6xl">Video surveillance</h1>
+        <div className=" text-white text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl text-center pt-14">
+          <h1 className="pb-12 font-bold text-3xl lg:lg:text-6xl">
+            Video surveillance
+          </h1>
           <p className="pt-12 container mx-auto">
             With our video surveillance solutions you will have the support of
             the best brands and technologies specialized in video security and
@@ -45,16 +49,16 @@ const VideoSurveillance = () => {
 
         <section className=" pt-32 gap-2 ">
           <div className="relative">
-            <span className="text-green-500 font-bold absolute left-[10%] text-lg -top-10">
+            <span className="text-green-500 font-bold absolute left-[0] lg:text-lg -top-10">
               Line Crossing Detection
             </span>
-            <span className="text-green-500 font-bold absolute left-[38%] text-lg -top-10">
+            <span className="text-green-500 font-bold absolute  left-[0] lg:text-lg -top-10">
               Intrusion Detection
             </span>
-            <span className="text-green-500 font-bold absolute right-[35%] text-lg -top-10">
+            <span className="text-green-500 font-bold absolute  left-[0] lg:text-lg -top-10">
               Motion Detection
             </span>
-            <span className="text-green-500 font-bold absolute right-[10%] text-lg -top-10">
+            <span className="text-green-500 font-bold absolute  left-[0] lg:text-lg -top-10">
               Human Detection
             </span>
           </div>

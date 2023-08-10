@@ -9,15 +9,17 @@ const Consulting = () => {
           <ServiceBadge id="3" image="asesoramiento" />
         </section>
 
-        <div className=" text-white text-4xl text-center pt-14 ">
+        <div className=" text-white text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl text-center pt-32 lg:pt-14 ">
           <div className="pl-0">
-            <h1 className="mb-0 font-bold text-6xl">Network consulting</h1>
-            <h1 className="mb-0 font-normal text-3xl">
+            <h1 className="mb-0 font-bold text-3xl lg:text-6xl">
+              Network consulting
+            </h1>
+            <h1 className="mb-0 font-normal text-xl lg:text-3xl">
               (evaluation and design of internal network <br /> solutions for
               companies)
             </h1>
           </div>
-          <article className="absolute top-[25%] left-[5%] w-[1000px] ">
+          <article className="absolute top-[25%] left-[5%] xl:w-[1000px] ">
             <p className="container mx-auto my-20">
               Generally, the growth of companies tends to be somewhat
               uncontrolled and falls short of meeting its own to meet the needs

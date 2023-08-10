@@ -1,5 +1,5 @@
 
-import Services from '@/pages/MainHero/ServicesMain'
+import Services from '@/pages/MainHero/ServicesMain/'
 import Layout from '@/layout/Layout'
 import Head from 'next/head'
 import { Parallax, Background } from 'react-parallax'

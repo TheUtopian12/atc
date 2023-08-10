@@ -7,18 +7,18 @@ import Post_3 from "@/public/assets/img/AfterSales/aftersales_3_Implant.jpg";
 const AfterSales = () => {
   return (
     <>
-      <section className="bg-[url('/assets/img/Backgrounds/postventa.jpg')] bg-cover h-[100vh]  relative">
+      <section className="bg-[url('/assets/img/Backgrounds/postventa.jpg')] bg-cover pb-10  relative">
         <section className="absolute top-0 left-10">
           <ServiceBadge id="7" image="iconoa fter sales" />
         </section>
 
-        <div className=" text-white text-3xl text-center pt-14">
-          <span className="pb-12 font-bold text-6xl">
+        <div className=" text-white text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl text-center pt-36 lg:pt-14">
+          <span className="pb-12 font-bold text-3xl lg:text-6xl">
             After-Sales Services (by policy or event)
           </span>
         </div>
 
-        <section className="flex justify-center items-center pt-32  gap-10 ">
+        <section className="grid lg:flex justify-center items-center pt-32  gap-10 ">
           <article>
             <Image
               src={Post_1}

@@ -15,8 +15,10 @@ const Cybersecurity = () => {
           <ServiceBadge id="5" image="Ciberseguridad_1" />
         </section>
 
-        <div className="absolute left-[10%] top-[5%] text-white text-4xl text-center pt-14 w-[900px]">
-          <h1 className="pb-12 font-bold text-6xl">Cybersecurity</h1>
+        <div className="absolute lg:left-[10%] top-[5%] text-white text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl text-center pt-14 lg:w-[900px]">
+          <h1 className="pb-12 font-bold text-3xl lg:text-6xl">
+            Cybersecurity
+          </h1>
           <p className="pt-12 container mx-auto">
             Nowadays, all companies take care of their goods and assets with
             locks, perimeter fences, cctv cameras, etc, but not all of them take
@@ -37,7 +39,7 @@ const Cybersecurity = () => {
         </div>
       </section>
 
-      <section className="bg-[url('/assets/img/Backgrounds/ciberseguridad_2.jpg')] bg-cover h-[100vh]  relative">
+      <section className="bg-[url('/assets/img/Backgrounds/ciberseguridad_2.jpg')] bg-cover h-[150vh]  relative">
         <section className="absolute top-0 right-10">
           <ServiceBadge id="5" image="Ciberseguridad_1" />
         </section>
@@ -45,35 +47,35 @@ const Cybersecurity = () => {
           <h1 className="pb-12 font-bold text-6xl">Cybersecurity</h1>
         </div>
 
-        <article className="flex justify-evenly mt-20">
-          <p className="text-3xl text-white w-[500px] text-center">
+        <article className="lg:flex justify-evenly mt-20">
+          <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl text-white lg:w-[500px] text-center">
             Don{"'"}t be part of the attack statistics,{" "}
             <span className="font-bold">with our leading brands</span>
             in cybersecurity we can support you.
           </p>
 
-          <p className="text-3xl text-white w-[600px] rounded-[40px] p-5 mt-10 border-[5px] text-center">
+          <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl text-white lg:w-[600px] rounded-[40px] p-5 mt-10 border-[5px] text-center">
             How many organizations <br /> reported attacks data ransomware
             <br />
             attacks in the last year?
           </p>
         </article>
         <article>
-          <div className="grid relative ml-10">
+          <div className="grid place-items-center mt-24 relative ml-10">
             <Image
               src={Cybersecurity_2}
-              className="w-[400px] absolute left-10"
+              className="w-[200px] lg:w-[400px] absolute lg:left-10"
               alt="Imagen ciberseguridad"
             />
             <Image
               src={Cybersecurity_1}
-              className="w-[400px] absolute left-52 top-40"
+              className="w-[200px] lg:w-[400px] absolute lg:left-52 top-40"
               alt="Imagen ciberseguridad"
             />
 
             <Image
               src={Cybersecurity_3}
-              className="w-[400px] absolute left-32 top-80"
+              className="w-[200px] lg:w-[400px] absolute lg:left-32 top-80"
               alt="Imagen ciberseguridad"
             />
           </div>
@@ -82,7 +84,7 @@ const Cybersecurity = () => {
           <Image
             src={Diagrama}
             alt="diagrama"
-            className="absolute right-0 mt-10 w-[900px]"
+            className="absolute right-0 mt-64 lg:w-[900px]"
           />
         </article>
       </section>
