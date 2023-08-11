@@ -7,10 +7,10 @@ const Advisory = () => {
       <div className="bg-[url('/assets/img/Backgrounds/asesoria_low.jpg')] bg-cover h-[110vh] relative">
         <div className="absolute lg:hidden top-0 left-0 right-0 bottom-0 bg-black/50 z-[2]" />
         <div
-          className="container text-white text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl 
+          className="container text-white sm:text-lg md:text-xl lg:text-2xl xl:text-2xl  
         text-center lg:text-left lg:w-[50%] lg:pl-5 absolute top-24 lg:top-[9%] xl:top-[10px] lg:left-0 z-[2]"
         >
-          <h1 className="mb-8 font-bold text-3xl lg:text-6xl">
+          <h1 className="mb-8 font-bold text-4xl lg:text-6xl">
             Advisory and consulting services
           </h1>
           <p className="mb-8">
@@ -27,7 +27,7 @@ const Advisory = () => {
             services.
           </p>
 
-          <h1 className="mb-8 font-bold text-3xl lg:text-6xl">
+          <h1 className="mb-8 font-bold text-4xl lg:text-6xl">
             Telecommunications
           </h1>
           <p className="mb-8">
