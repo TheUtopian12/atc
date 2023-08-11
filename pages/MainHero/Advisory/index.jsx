@@ -4,7 +4,7 @@ import { AiFillCheckCircle } from "react-icons/ai";
 const Advisory = () => {
   return (
     <div>
-      <div className="bg-[url('/assets/img/Backgrounds/asesoria_low.jpg')] bg-cover h-[110vh] relative">
+      <div className="bg-[url('/assets/img/Backgrounds/asesoria_low.jpg')] bg-cover h-[123vh] relative">
         <div className="absolute lg:hidden top-0 left-0 right-0 bottom-0 bg-black/50 z-[2]" />
         <div
           className="container text-white sm:text-lg md:text-xl lg:text-2xl xl:text-2xl  

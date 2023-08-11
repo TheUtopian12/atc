@@ -8,12 +8,12 @@ const Estructurado = () => {
   return (
     <>
       <Layout>
-        <section className="bg-[url('/assets/img/Backgrounds/videovigilancia_low.jpg')] bg-cover h-[100vh]  relative">
-          <section className="absolute top-0 left-10">
+        <section className="bg-[url('/assets/img/Backgrounds/videovigilancia_low.jpg')] bg-cover h-[100vh] md:h-[110vh] lg:h-[120vh]  relative">
+          <section className="absolute top-6 left-10">
             <ServiceBadge id="1" image="Cableado estructurado_1" />
           </section>
 
-          <div className=" text-white text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl text-center pt-14 ">
+          <div className=" text-white text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl text-center pt-40 ">
             <h1 className="mb-12 font-bold text-3xl lg:text-6xl">
               Structured cabling
             </h1>
@@ -48,14 +48,16 @@ const Estructurado = () => {
             />
           </section>
         </section>
-        <section className="bg-[url('/assets/img/Backgrounds/cableado_estructurado_low.jpg')] bg-cover pb-10  relative">
+        <section className="bg-[url('/assets/img/Backgrounds/cableado_estructurado_low.jpg')] bg-cover pb-10 relative ">
           <section className="absolute top-0 right-10">
             <ServiceBadge id="1" image="Cableado estructurado_1" />
           </section>
 
-          <div className=" text-white text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl text-center pt-14 ">
-            <h1 className="mb-12 font-bold text-6xl">Structured cabling</h1>
-            <article className="container mx-auto w-[60%]">
+          <div className=" text-white text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl text-center pt-36 ">
+            <h1 className="mb-12 font-bold text-3xl lg:text-6xl">
+              Structured cabling
+            </h1>
+            <article className="container mx-auto px-2">
               <h2 className="mb-12">Service process:</h2>
               <p className="mb-12">
                 <span className="text-green-500 font-bold">1.</span> Technical

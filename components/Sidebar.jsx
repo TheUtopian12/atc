@@ -80,25 +80,37 @@ const Sidebar = () => {
                         </Link>
                       </li>
                       <li>
-                        <a>Wireless Networks (WiFi)</a>
+                        <Link href="/MainHero/Wifi">
+                          Wireless Networks (WiFi)
+                        </Link>
                       </li>
                       <li>
-                        <a>High availability</a>
+                        <Link href="/MainHero/HighAvailability">
+                          High availability
+                        </Link>
                       </li>
                       <li>
-                        <a>Video surveillance</a>
+                        <Link href="/MainHero/VideoSurveillance">
+                          Video surveillance
+                        </Link>
                       </li>
                       <li>
-                        <a>Cybersecurity</a>
+                        <Link href="/MainHero/Cybersecurity">
+                          Cybersecurity
+                        </Link>
                       </li>
                       <li>
-                        <a>Office interconnection</a>
+                        <Link href="/MainHero/Interconection">
+                          Office interconnection
+                        </Link>
                       </li>
                       <li>
-                        <a>Network Consulting</a>
+                        <Link href="/MainHero/Consulting">
+                          Network Consulting
+                        </Link>
                       </li>
                       <li>
-                        <a>After Sales</a>
+                        <Link href="/MainHero/AfterSales">After Sales</Link>
                       </li>
                     </ul>
                   </details>
@@ -233,9 +245,12 @@ const Sidebar = () => {
         </div>
       </div>
       <div className="navbar-center">
-        <a className="btn btn-ghost normal-case text-xl">
+        <Link
+          href="https://www.xcien.com"
+          className="btn btn-ghost normal-case text-xl"
+        >
           <Image src={XcienLogo} className="w-20" alt="Xcien logo" />
-        </a>
+        </Link>
       </div>
       <div className="navbar-end">
         <button className="btn btn-ghost btn-circle">
