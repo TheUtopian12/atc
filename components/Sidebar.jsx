@@ -1,8 +1,9 @@
 import Image from "next/image";
 import XcienLogo from "@/public/assets/img/xcien_logo.png";
+import Link from "next/link";
 const Sidebar = () => {
   return (
-    <div className="navbar bg-gray-800 text-white fixed z-[60]">
+    <div className="navbar bg-gray-800 text-white -mt-1 fixed z-[60]">
       <div className="navbar-start">
         <div className="dropdown">
           <label
@@ -31,11 +32,11 @@ const Sidebar = () => {
             <div className="drawer-side">
               <label htmlFor="my-drawer" className="drawer-overlay"></label>
               <ul
-                className="menu gap-0 pt-10 p-4 w-64 h-[100vh] bg-gray-800  text-base-content "
+                className="menu gap-0 pt-10  w-64 h-[115vh] bg-gray-800  text-base-content "
                 data-theme="dark"
               >
                 <li>
-                  <a>
+                  <Link href="/">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
@@ -51,7 +52,7 @@ const Sidebar = () => {
                       />
                     </svg>
                     Home
-                  </a>
+                  </Link>
                 </li>
                 <li>
                   <details open>
@@ -74,7 +75,9 @@ const Sidebar = () => {
                     </summary>
                     <ul>
                       <li>
-                        <a>Structured cabling</a>
+                        <Link href="/MainHero/Estructurado">
+                          Structured cabling
+                        </Link>
                       </li>
                       <li>
                         <a>Wireless Networks (WiFi)</a>
