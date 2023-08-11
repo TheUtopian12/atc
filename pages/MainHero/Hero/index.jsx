@@ -77,7 +77,7 @@ const Hero = () => {
             />
           </div>
           <p className="mb-5 text-xl md:text-3xl text-center">
-            <span className="font-bold">ONE</span> STOP SHOPPER
+            <span className="font-bold">ONE</span>-STOP SHOPPER
           </p>
         </div>
       </div>

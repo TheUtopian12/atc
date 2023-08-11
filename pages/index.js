@@ -30,18 +30,20 @@ export default function Home() {
       </Head>
 
       <Hero/>
-      <Services/>
       <Offer/>
       <Advisory/>
       <WhatIs/>
-      <Estructurado/>
+
+
+      {/**<Estructurado/>
       <Wifi/>
       <HighAvailability/>
       <VideoSurveillance/>
       <Cybersecurity/>
       <Interconection/>
       <Consulting/>
-      <AfterSales/> 
+      <AfterSales/>  */}
+      
 
 
      </Layout>
