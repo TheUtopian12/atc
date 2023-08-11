@@ -53,12 +53,12 @@ const Wifi = () => {
             </article>
           </div>
         </section>
-        <section className=" bg-[url('/assets/img/Backgrounds/Redes_inalambricas_2_low.jpg')] bg-cover h-[140vh] xl:h-[150vh]  relative">
+        <section className=" bg-[url('/assets/img/Backgrounds/Redes_inalambricas_2_low.jpg')] bg-cover h-[180vh] xl:h-[180vh]  relative">
           <section className="absolute top-0 right-10">
             <ServiceBadge id="2" image="Redes inalambricas_1" />
           </section>
 
-          <div className=" text-white text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl text-center pt-14 ">
+          <div className=" text-white text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl text-center pt-14  ">
             <div className="text-left pl-10 pt-24">
               <h1 className="mb-0 font-bold text-3xl lg:text-6xl">
                 Wireless Networks (WiFi)
@@ -68,7 +68,7 @@ const Wifi = () => {
               </h2>
             </div>
             <div className="flex justify-center">
-              <article className="container sm:pt-10 lg:w-[1200px] absolute xl:right-24">
+              <article className="container sm:pt-10  lg:w-[1200px] absolute xl:right-24">
                 <h2 className="mb-12">Service process:</h2>
                 <p className="mb-12">
                   <span className="text-green-500 font-bold">1.</span> Technical
@@ -104,7 +104,7 @@ const Wifi = () => {
           </div>
         </section>
 
-        <section className=" bg-[url('/assets/img/Backgrounds/Redes_inalambricas_3_low.jpg')] bg-cover h-[160vh] md:h-[120vh] xl:h-[150vh]  relative">
+        <section className=" bg-[url('/assets/img/Backgrounds/Redes_inalambricas_3_low.jpg')] bg-cover h-[170vh] md:h-[150vh] xl:h-[160vh]  relative">
           <section className="absolute top-0 right-10">
             <ServiceBadge id="2" image="Redes inalambricas_1" />
           </section>
@@ -148,7 +148,7 @@ const Wifi = () => {
             </div>
           </div>
 
-          <div className="absolute  bottom-10 lg:left-10 mx-10">
+          <div className="absolute bottom-10 lg:left-10 mx-10">
             <ul className="text-white font-bold text-sm" type="disc">
               <li>
                 A maintenance policy is required for these last two items, as
