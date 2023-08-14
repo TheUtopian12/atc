@@ -8,7 +8,7 @@ const Interconection = () => {
   return (
     <>
       <Layout>
-        <section className="bg-[url('/assets/img/Backgrounds/videovigilancia_low.jpg')] bg-cover pb-10  relative">
+        <section className="bg-[url('/assets/img/Backgrounds/videovigilancia_low.jpg')] bg-cover pb-24  relative">
           <section className="absolute top-10 left-10">
             <ServiceBadge id="6" image="Interconexion de oficinas" />
           </section>

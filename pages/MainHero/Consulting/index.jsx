@@ -6,7 +6,7 @@ const Consulting = () => {
   return (
     <>
       <Layout>
-        <section className="bg-[url('/assets/img/Backgrounds/asesoramiento_de_redes_low.jpg')] bg-cover h-[100vh]  relative">
+        <section className="bg-[url('/assets/img/Backgrounds/asesoramiento_de_redes_low.jpg')] bg-cover h-[130vh]  relative">
           <section className="absolute top-10 left-10">
             <ServiceBadge id="3" image="asesoramiento" />
           </section>

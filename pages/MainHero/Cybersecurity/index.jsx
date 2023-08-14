@@ -12,12 +12,13 @@ const Cybersecurity = () => {
   return (
     <>
       <Layout>
-        <section className="bg-[url('/assets/img/Backgrounds/ciberseguridad.jpg')] bg-cover h-[100vh] pb-10 relative">
-          <section className="absolute top-10 left-10">
+        <section className="bg-[url('/assets/img/Backgrounds/ciberseguridad.jpg')] bg-cover bg-fixed h-[100vh] pb-10 relative">
+          <div className="absolute 2xl:hidden top-0 left-0 right-0 bottom-0 bg-black/50 z-[2]" />
+          <section className="absolute top-10 left-10 z-[2]">
             <ServiceBadge id="5" image="Ciberseguridad_1" />
           </section>
 
-          <div className="absolute lg:left-[10%] top-[15%] text-white text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl text-center pt-14 lg:w-[900px]">
+          <div className="absolute lg:left-[10%] top-[15%] text-white text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl text-center pt-16 lg:w-[900px] z-[2]">
             <h1 className="pb-5 font-bold text-3xl lg:text-6xl">
               Cybersecurity
             </h1>
@@ -42,7 +43,7 @@ const Cybersecurity = () => {
           </div>
         </section>
 
-        <section className="bg-[url('/assets/img/Backgrounds/ciberseguridad_2.jpg')] bg-cover h-[150vh] pb-10  relative">
+        <section className="bg-[url('/assets/img/Backgrounds/ciberseguridad_2.jpg')] bg-cover h-[150vh] lg:h-[110vh] pb-10  relative">
           <div className=" text-white text-4xl text-center pt-14 ">
             <h1 className="pb-10 font-bold text-3xl lg.text-6xl">
               Cybersecurity
@@ -62,33 +63,33 @@ const Cybersecurity = () => {
               attacks in the last year?
             </p>
           </article>
-          <article>
-            <div className="grid place-items-center mt-24 relative ml-10">
+          <div className="flex flex-col-reverse lg:flex-row lg:flex gap-5 2xl:justify-between">
+            <div className="grid place-items-center lg:mt-24 relative lg:ml-10 gap-10 lg:gap-0 mt-10">
               <Image
                 src={Cybersecurity_2}
-                className="w-[200px] lg:w-[400px] absolute lg:left-10"
+                className="w-[200px] lg:w-[400px]"
                 alt="Imagen ciberseguridad"
               />
               <Image
                 src={Cybersecurity_1}
-                className="w-[200px] lg:w-[400px] absolute lg:left-52 top-40"
+                className="w-[200px] lg:w-[400px]"
                 alt="Imagen ciberseguridad"
               />
 
               <Image
                 src={Cybersecurity_3}
-                className="w-[200px] lg:w-[400px] absolute lg:left-32 top-80"
+                className="w-[200px] lg:w-[400px"
                 alt="Imagen ciberseguridad"
               />
             </div>
-          </article>
-          <article>
-            <Image
-              src={Diagrama}
-              alt="diagrama"
-              className="absolute right-0 bottom-20 lg:w-[900px]"
-            />
-          </article>
+            <div>
+              <Image
+                src={Diagrama}
+                alt="diagrama"
+                className="  lg:w-[800px] "
+              />
+            </div>
+          </div>
         </section>
       </Layout>
     </>

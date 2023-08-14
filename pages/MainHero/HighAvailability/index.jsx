@@ -41,12 +41,9 @@ const HighAvailability = () => {
             </article>
           </div>
         </section>
-        <section className=" bg-[url('/assets/img/Backgrounds/alta_disponibilidad_2_low.jpg')] bg-cover pb-10  relative">
-          <section className="absolute top-0 right-10">
-            <ServiceBadge id="3" image="Alta disponibilidad_1" />
-          </section>
-
-          <div className="lg:pl-64 xl:pl-80 text-white text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl text-center pt-32 ">
+        <section className=" bg-[url('/assets/img/Backgrounds/alta_disponibilidad_2_low.jpg')]  bg-cover pb-10  relative h-[150vh]">
+          <div className="absolute 2xl:hidden top-0 left-0 right-0 bottom-0 bg-black/50 z-[2]" />
+          <div className="lg:pl-64 2xl:pl-96 text-white text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl text-center pt-32 absolute z-[2]">
             <div className="pl-0">
               <h1 className="mb-0 font-bold text-3xl lg:text-6xl">
                 High availability
@@ -54,7 +51,7 @@ const HighAvailability = () => {
             </div>
             <article className="">
               <div className=" text-white text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl text-center pt-14 ">
-                <article className="container mx-auto lg:w-[60%]">
+                <article className="container mx-auto 2xl:w-[60%]">
                   <h2 className="mb-12">Service process:</h2>
                   <p className="mb-12">
                     <span className="text-green-500 font-bold">1.</span>{" "}
@@ -87,11 +84,7 @@ const HighAvailability = () => {
           </div>
         </section>
 
-        <section className=" bg-[url('/assets/img/Backgrounds/alta_disponibilidad_3.jpg')] bg-cover   relative">
-          <section className="absolute top-0 right-10">
-            <ServiceBadge id="3" image="Alta disponibilidad_1" />
-          </section>
-
+        <section className=" bg-[url('/assets/img/Backgrounds/alta_disponibilidad_3.jpg')] bg-cover relative">
           <div className=" text-white text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl text-center pt-32 ">
             <div className="pl-0">
               <h1 className="mb-0 font-bold text-3xl lg:text-6xl">

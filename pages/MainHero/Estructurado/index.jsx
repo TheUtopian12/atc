@@ -48,16 +48,13 @@ const Estructurado = () => {
             />
           </section>
         </section>
-        <section className="bg-[url('/assets/img/Backgrounds/cableado_estructurado_low.jpg')] bg-cover pb-10 relative ">
-          <section className="absolute top-0 right-10">
-            <ServiceBadge id="1" image="Cableado estructurado_1" />
-          </section>
-
-          <div className=" text-white text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl text-center pt-36 ">
+        <section className="bg-[url('/assets/img/Backgrounds/cableado_estructurado_low.jpg')] bg-cover pb-10 relative h-[150vh] 2xl:h-[110vh]">
+          <div className="absolute 2xl:hidden top-0 left-0 right-0 bottom-0 bg-black/70 z-[2]" />
+          <div className="absolute container text-white text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-center 2xl:right-0 pt-36 z-[2]">
             <h1 className="mb-12 font-bold text-3xl lg:text-6xl">
               Structured cabling
             </h1>
-            <article className="container mx-auto px-2">
+            <article className="container mx-auto px-2 text-center">
               <h2 className="mb-12">Service process:</h2>
               <p className="mb-12">
                 <span className="text-green-500 font-bold">1.</span> Technical

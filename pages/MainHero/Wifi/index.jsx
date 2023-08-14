@@ -24,7 +24,7 @@ const Wifi = () => {
           <section className=" absolute top-10 left-10">
             <ServiceBadge id="2" image="Redes inalambricas_1" />
           </section>
-          <section className="absolute hidden lg:block lg:right-[12%] lg:top-10 xl:right-[20%] xl:top-10 2xl:right-[22%] 2xl:top-10">
+          <section className="absolute hidden lg:block lg:right-[12%] lg:top-10 xl:right-[16%] xl:top-16 2xl:right-[28%] 2xl:top-16">
             <Image src={Detalle} alt="Detalle" className="w-60" />
           </section>
 
@@ -54,21 +54,18 @@ const Wifi = () => {
           </div>
         </section>
         <section className=" bg-[url('/assets/img/Backgrounds/Redes_inalambricas_2_low.jpg')] bg-cover h-[180vh] xl:h-[180vh]  relative">
-          <section className="absolute top-0 right-10">
-            <ServiceBadge id="2" image="Redes inalambricas_1" />
-          </section>
-
           <div className=" text-white text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl text-center pt-14  ">
-            <div className="text-left pl-10 pt-24">
-              <h1 className="mb-0 font-bold text-3xl lg:text-6xl">
+            <div className="absolute 2xl:hidden top-0 left-0 right-0 bottom-0 bg-black/40 " />
+            <div className="text-left pl-10 pt-14 grid">
+              <h1 className="mb-0 font-bold text-3xl lg:text-6xl z-[2]">
                 Wireless Networks (WiFi)
               </h1>
-              <h2 className="mb-12 font-normal text-xl lg:text-3xl">
+              <h2 className="mb-12 font-normal text-xl lg:text-3xl z-[2]">
                 Service with policy
               </h2>
             </div>
             <div className="flex justify-center">
-              <article className="container sm:pt-10  lg:w-[1200px] absolute xl:right-24">
+              <article className="container mx-auto sm:pt-10  lg:w-[1200px]  xl:right-24 z-[2]">
                 <h2 className="mb-12">Service process:</h2>
                 <p className="mb-12">
                   <span className="text-green-500 font-bold">1.</span> Technical
@@ -104,11 +101,7 @@ const Wifi = () => {
           </div>
         </section>
 
-        <section className=" bg-[url('/assets/img/Backgrounds/Redes_inalambricas_3_low.jpg')] bg-cover h-[170vh] md:h-[150vh] xl:h-[160vh]  relative">
-          <section className="absolute top-0 right-10">
-            <ServiceBadge id="2" image="Redes inalambricas_1" />
-          </section>
-
+        <section className=" bg-[url('/assets/img/Backgrounds/Redes_inalambricas_3_low.jpg')] bg-cover h-[180vh] md:h-[150vh] xl:h-[160vh]  relative">
           <div className=" text-white  text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl text-center pt-14 ">
             <div className="text-left pl-10 pt-24">
               <h1 className="mb-0 font-bold text-3xl lg:text-6xl">
@@ -124,7 +117,7 @@ const Wifi = () => {
                   <span className="text-green-500 font-bold">5.</span> Service
                   delivery <br /> The project is released together with the
                   technical report of the project, identification of WiFi
-                  equipment and network coverage map record file.
+                  equipment and network coverage map record file.
                 </p>
                 <p className="mb-12">
                   <span className="text-green-500 font-bold">6.</span>{" "}
@@ -141,7 +134,7 @@ const Wifi = () => {
                   number of devices, etc. In addition to this, redesign will
                   always be present in the process, mainly triggered by an
                   increase of devices in the network, demand for more resources,
-                  which leads to adjustments in the deployment to meet customer
+                  which leads to adjustments in the deployment to meet customer
                   needs.
                 </p>
               </article>
@@ -164,10 +157,6 @@ const Wifi = () => {
         </section>
 
         <section className=" bg-[url('/assets/img/Backgrounds/Redes_inalambricas_3_low.jpg')] bg-cover  relative">
-          <section className="absolute top-0 right-10">
-            <ServiceBadge id="2" image="Redes inalambricas_1" />
-          </section>
-
           <div className=" text-white text-3xl text-center pt-32 ">
             <div className="text-rigth pl-10">
               <h1 className="mb-0 font-bold text-3xl lg:text-6xl">

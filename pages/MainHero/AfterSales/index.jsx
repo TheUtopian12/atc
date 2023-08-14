@@ -9,12 +9,12 @@ const AfterSales = () => {
   return (
     <>
       <Layout>
-        <section className="bg-[url('/assets/img/Backgrounds/postventa.jpg')] bg-cover pb-10  relative">
+        <section className="bg-[url('/assets/img/Backgrounds/postventa.jpg')] bg-cover pb-10 lg:h-[100vh]  relative">
           <section className="absolute top-10 left-10">
             <ServiceBadge id="7" image="iconoa fter sales" />
           </section>
 
-          <div className=" text-white text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl text-center pt-44 lg:pt-14">
+          <div className=" text-white text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl text-center pt-44 lg:pt-32">
             <span className="pb-12 font-bold text-3xl lg:text-6xl">
               After-Sales Services (by policy or event)
             </span>

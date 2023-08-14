@@ -11,73 +11,73 @@ const Hero = () => {
     <div className="hero min-h-screen bg-[url('/assets/img/Backgrounds/landing_vertical.jpg')] sm:bg-[url('/assets/img/Backgrounds/Portadalow.jpg')]">
       <div className="hero-overlay bg-opacity-50"></div>
       <div className="hero-content text-left text-neutral-content container">
-        <div className="absolute md:top-[50%] md:left-[20%]">
+        <div className="absolute md:top-[50%] md:left-[10%]">
           <h1
             data-aos="fade-up"
             className="mb-5 text-4xl md:text-8xl font-bold text-center"
           >
             ICT Services
           </h1>
-          <div data-aos="fade-down" className="flex gap-4 md:gap-8 pb-32">
+          <div data-aos="fade-down" className="flex md:gap-8 pb-32 ">
             <Image
-              src={"/assets/img/icons/Cableado estructurado_1.png"}
+              src={"/assets/img/icons/icono cableado estructurado-01.svg"}
               width={50}
               height={50}
               alt="Icono de servicio"
-              className="w-[25px] h-[25px] sm:w-[50px] sm:h-[50px]"
+              className="w-[40px] h-[40px]  sm:w-[100px] sm:h-[100px]"
             />
             <Image
-              src={"/assets/img/icons/Redes inalambricas_1.png"}
+              src={"/assets/img/icons/iconos redes inalambricas-01.svg"}
               width={50}
               height={50}
               alt="Icono de servicio"
-              className="w-[25px] h-[25px] sm:w-[50px] sm:h-[50px]"
+              className="w-[40px] h-[40px]  sm:w-[100px] sm:h-[100px]"
             />
             <Image
-              src={"/assets/img/icons/Alta disponibilidad_1.png"}
+              src={"/assets/img/icons/icono alta disponibilidad-01.svg"}
               width={50}
               height={50}
               alt="Icono de servicio"
-              className="w-[25px] h-[25px] sm:w-[50px] sm:h-[50px]"
+              className="w-[40px] h-[40px]  sm:w-[100px] sm:h-[100px]"
             />
             <Image
-              src={"/assets/img/icons/Video vigilancia.png"}
+              src={"/assets/img/icons/icono videovigilancia.svg"}
               width={50}
               height={50}
               alt="Icono de servicio"
-              className="w-[25px] h-[25px] sm:w-[50px] sm:h-[50px]"
+              className="w-[40px] h-[40px]  sm:w-[100px] sm:h-[100px]"
             />
             <Image
-              src={"/assets/img/icons/Ciberseguridad_1.png"}
+              src={"/assets/img/icons/iconos ciberseguridad.svg"}
               width={50}
               height={50}
               alt="Icono de servicio"
-              className="w-[25px] h-[25px] sm:w-[50px] sm:h-[50px]"
+              className="w-[40px] h-[40px]  sm:w-[100px] sm:h-[100px]"
             />
             <Image
-              src={"/assets/img/icons/Interconexion de oficinas.png"}
+              src={"/assets/img/icons/icono oficina interconexion-01.svg"}
               width={50}
               height={50}
               alt="Icono de servicio"
-              className="w-[25px] h-[25px] sm:w-[50px] sm:h-[50px]"
+              className="w-[40px] h-[40px]  sm:w-[100px] sm:h-[100px]"
             />
             <Image
-              src={"/assets/img/icons/asesoramiento.png"}
+              src={"/assets/img/icons/icono asesoramiento de red.svg"}
               width={50}
               height={50}
               alt="Icono de servicio"
-              className="w-[40px] h-[40px] sm:w-[50px] sm:h-[50px]"
+              className="w-[40px] h-[40px]   sm:w-[100px] sm:h-[100px]"
             />
             <Image
-              src={"/assets/img/icons/iconoa fter sales.png"}
+              src={"/assets/img/icons/icono after sales.svg"}
               width={50}
               height={50}
               alt="Icono de servicio"
-              className="w-[40px] h-[40px] sm:w-[50px] sm:h-[50px]"
+              className="w-[40px] h-[40px]   sm:w-[100px] sm:h-[100px]"
             />
           </div>
           <p className="mb-5 text-xl md:text-3xl text-center">
-            <span className="font-bold">ONE</span>-STOP SHOPPER
+            <span className="font-bold">ONE</span>-STOP SHOP
           </p>
         </div>
       </div>
