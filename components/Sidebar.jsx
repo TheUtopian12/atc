@@ -116,7 +116,8 @@ const Sidebar = () => {
                   </details>
                 </li>
                 <li>
-                  <a>
+                  <Link href="/Expo/History">
+                    {" "}
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
@@ -132,10 +133,10 @@ const Sidebar = () => {
                       />
                     </svg>
                     History
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a>
+                  <Link href="/Expo/Coverage">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
@@ -151,10 +152,10 @@ const Sidebar = () => {
                       />
                     </svg>
                     Coverage
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a>
+                  <Link href="/Expo/InternetSolutions">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
@@ -175,10 +176,11 @@ const Sidebar = () => {
                       />
                     </svg>
                     Solutions
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a>
+                  <Link href="/Expo/Customers">
+                    {" "}
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
@@ -194,10 +196,11 @@ const Sidebar = () => {
                       />
                     </svg>
                     Customers
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a>
+                  <Link href="/Expo/Certification">
+                    {" "}
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
@@ -213,10 +216,11 @@ const Sidebar = () => {
                       />
                     </svg>
                     Certifications
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a>
+                  <Link href="/Expo/More">
+                    {" "}
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
@@ -237,7 +241,7 @@ const Sidebar = () => {
                       />
                     </svg>
                     More
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

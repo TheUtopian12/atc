@@ -11,7 +11,7 @@ import Diagrama from "@/public/assets/img/Satellite/img/diagrama_ingles.png";
 const Satellite = () => {
   return (
     <>
-      <div className="h-screen bg-fixed bg-center bg-cover imgBgExpo_10">
+      <div className="h-screen  bg-center bg-cover imgBgExpo_10">
         <div className="container mx-auto text-center lg:text-left text-white text-lg sm:text-xl md:text-2xl lg:text-3xl px-10">
           <h1 className="pt-10 text-3xl lg:text-5xl text-left">
             Satellite Internet

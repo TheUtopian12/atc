@@ -6,26 +6,27 @@ import Mype from "@/public/assets/img/InternetSolutions/mype.jpg";
 import Event from "@/public/assets/img/InternetSolutions/Conference.jpg";
 
 import Satellite from "@/public/assets/img/InternetSolutions/satelital.webp";
+import Layout from "@/layout/Layout";
 
 const InternetSolutions = () => {
   return (
-    <>
-      <div className="h-screen bg-fixed bg-center bg-cover imgBgExpo_3 ">
-        <div className="container text-center lg:text-left text-white text-lg sm:text-xl md:text-2xl lg:text-3xl px-10">
+    <Layout>
+      <div className="h-auto lg:h-screen pb-10 lg:pb-0 bg-fixed bg-center bg-cover imgBgExpo_8 ">
+        <div className="container mx-auto text-center lg:text-left text-white text-lg sm:text-xl md:text-2xl lg:text-3xl px-10 pt-10">
           <h1 className="pt-10 text-3xl lg:text-5xl text-center">
             Internet solutions and services
           </h1>
-          <div className="grid grid-cols-4 pt-5">
-            <div className="grid place-items-center ">
-              <h2 className="text-3xl font-bold  text-green-500">Dedicated</h2>
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 pt-5 gap-10">
+            <div className="grid place-items-center">
+              <h2 className="text-2xl font-bold  text-green-500">Dedicated</h2>
               <Image
                 src={Internet}
                 alt="Internet"
-                className="w-[200px] rounded-l-3xl rounded-r-3xl"
+                className="w-[300px] lg:w-[200px] rounded-l-3xl rounded-r-3xl"
               />
               <article
                 className="text-center text-sm border-2 border-dotted border-green-500
-             rounded-3xl mt-10 p-5 bg-[#073763] w-[200px] h-[400px]"
+             rounded-3xl mt-10 p-5 bg-[#073763] w-[300px] lg:w-[250px] h-[400px]"
               >
                 <p className="pt-10">
                   Take your company to another level, customized symmetrical
@@ -40,15 +41,15 @@ const InternetSolutions = () => {
               </article>
             </div>
             <div className="grid place-items-center">
-              <h2 className="text-3xl font-bold text-green-500">MyPE</h2>
+              <h2 className="text-2xl font-bold text-green-500">MyPE</h2>
               <Image
                 src={Mype}
                 alt="Mype"
-                className="w-[200px] rounded-l-3xl rounded-r-3xl"
+                className="w-[300px] lg:w-[200px] rounded-l-3xl rounded-r-3xl"
               />
               <article
                 className="text-center text-sm border-2 border-dotted border-green-500 rounded-3xl mt-10 p-5 bg-[#073763]
-             w-[200px] h-[400px]"
+                w-[300px] lg:w-[250px] h-[400px]"
               >
                 <p className="pt-10">
                   Tailor-made solution for a micro or small business that
@@ -60,15 +61,15 @@ const InternetSolutions = () => {
               </article>
             </div>
             <div className="grid place-items-center ">
-              <h2 className="text-3xl font-bold text-green-500">Satelital</h2>
+              <h2 className="text-2xl font-bold text-green-500">Satelital</h2>
               <Image
                 src={Satellite}
                 alt="Satellite"
-                className="w-[200px] rounded-l-3xl rounded-r-3xl"
+                className="w-[400px] lg:w-[200px] rounded-l-3xl rounded-r-3xl"
               />
               <article
                 className="text-center text-sm border-2 border-dotted border-green-500 rounded-3xl mt-10 p-5 bg-[#073763]
-            w-[200px] h-[400px]
+                w-[300px] lg:w-[250px] h-[400px]
             "
               >
                 <p className="pt-10">
@@ -83,15 +84,18 @@ const InternetSolutions = () => {
               </article>
             </div>
             <div className="grid place-items-center ">
-              <h2 className="text-3xl font-bold  text-green-500">
+              <h2 className="text-2xl font-bold  text-green-500">
                 Internet for events
               </h2>
               <Image
                 src={Event}
                 alt="Eventos"
-                className="w-[200px] rounded-l-3xl rounded-r-3xl"
+                className="w-[300px] lg:w-[200px] rounded-l-3xl rounded-r-3xl"
               />
-              <article className="text-center text-sm border-2 border-dotted border-green-500 rounded-3xl mt-10 p-5 bg-[#073763] w-[200px] h-[400px]">
+              <article
+                className="text-center text-sm border-2 border-dotted border-green-500 rounded-3xl mt-10 p-5 bg-[#073763] 
+              w-[300px] lg:w-[250px] h-[400px]"
+              >
                 <p className="pt-10">
                   Hire it the days you need it with the confidence of a
                   flexible, dedicated and fast installation internet.
@@ -105,22 +109,22 @@ const InternetSolutions = () => {
         </div>
       </div>
 
-      <div className="h-screen bg-fixed bg-center bg-cover imgBgExpo_3 ">
-        <div className="container text-center lg:text-left text-white text-lg sm:text-xl md:text-2xl lg:text-3xl px-10">
+      <div className="h-auto lg:h-screen pb-10 lg:pb-0 bg-fixed bg-center bg-cover imgBgExpo_8 ">
+        <div className="container mx-auto text-center lg:text-left text-white text-lg sm:text-xl md:text-2xl lg:text-3xl px-10 pt-10">
           <h1 className="pt-10 text-3xl lg:text-5xl text-center">
             Internet solutions and services
           </h1>
-          <div className="grid grid-cols-5 pt-5">
+          <div className="grid md:grid-cols-2 lg:grid-cols-5 pt-5 gap-10">
             <div className="grid place-items-center ">
-              <h2 className="text-3xl font-bold  text-green-500">Firewall</h2>
+              <h2 className="text-2xl font-bold  text-green-500">Firewall</h2>
               <Image
                 src={Internet}
                 alt="Internet"
-                className="w-[200px] rounded-l-3xl rounded-r-3xl"
+                className="w-[300px] lg:w-[200px]  rounded-l-3xl rounded-r-3xl"
               />
               <article
                 className="text-center text-sm border-2 border-dotted border-green-500
-             rounded-3xl mt-10 p-5 bg-[#073763] w-[200px] h-[300px] flex justify-center items-center"
+             rounded-3xl mt-10 p-5 bg-[#073763] w-[300px] lg:w-[200px] h-[300px] flex justify-center items-center"
               >
                 <p className="pt-10 ">
                   Security for your business managed 100% from the cloud,
@@ -129,15 +133,15 @@ const InternetSolutions = () => {
               </article>
             </div>
             <div className="grid place-items-center">
-              <h2 className="text-3xl font-bold text-green-500">VoIP</h2>
+              <h2 className="text-2xl font-bold text-green-500">VoIP</h2>
               <Image
                 src={Mype}
                 alt="Mype"
-                className="w-[200px] rounded-l-3xl rounded-r-3xl"
+                className="w-[300px] lg:w-[200px]  rounded-l-3xl rounded-r-3xl"
               />
               <article
                 className="text-center text-sm border-2 border-dotted border-green-500 rounded-3xl mt-10 p-5 bg-[#073763]
-             w-[200px] h-[300px] flex justify-center items-center"
+             w-[300px] lg:w-[200px] h-[300px] flex justify-center items-center"
               >
                 <p className="pt-10">
                   With our VoIP service we allow you to achieve an easy,
@@ -146,15 +150,15 @@ const InternetSolutions = () => {
               </article>
             </div>
             <div className="grid place-items-center ">
-              <h2 className="text-3xl font-bold text-green-500">SDWAN</h2>
+              <h2 className="text-2xl font-bold text-green-500">SDWAN</h2>
               <Image
                 src={Satellite}
                 alt="Satellite"
-                className="w-[200px] rounded-l-3xl rounded-r-3xl"
+                className="w-[300px] lg:w-[200px]  rounded-l-3xl rounded-r-3xl"
               />
               <article
                 className="text-center text-sm border-2 border-dotted border-green-500 rounded-3xl mt-10 p-5 bg-[#073763]
-            w-[200px] h-[300px] flex justify-center items-center
+            w-[300px] lg:w-[200px] h-[300px] flex justify-center items-center
             "
               >
                 <p className="pt-10">
@@ -163,15 +167,18 @@ const InternetSolutions = () => {
               </article>
             </div>
             <div className="grid place-items-center ">
-              <h2 className="text-3xl font-bold  text-green-500">
+              <h2 className="text-2xl font-bold  text-green-500">
                 Virtual Network
               </h2>
               <Image
                 src={Event}
                 alt="Eventos"
-                className="w-[200px] rounded-l-3xl rounded-r-3xl"
+                className="w-[300px] lg:w-[200px]  rounded-l-3xl rounded-r-3xl"
               />
-              <article className="text-center text-sm border-2 border-dotted border-green-500 rounded-3xl mt-10 p-5 bg-[#073763] w-[200px] h-[300px] flex justify-center items-center">
+              <article
+                className="text-center text-sm border-2 border-dotted border-green-500 rounded-3xl mt-10 p-5 bg-[#073763]
+               w-[300px] lg:w-[200px] h-[300px] flex justify-center items-center"
+              >
                 <p className="pt-10">
                   Increase efficiency and security with our managed services.
                 </p>
@@ -179,15 +186,18 @@ const InternetSolutions = () => {
             </div>
 
             <div className="grid place-items-center ">
-              <h2 className="text-3xl font-bold  text-green-500">
+              <h2 className="text-2xl font-bold  text-green-500">
                 Data Center
               </h2>
               <Image
                 src={Event}
                 alt="Eventos"
-                className="w-[200px] rounded-l-3xl rounded-r-3xl"
+                className="w-[300px] lg:w-[200px]  rounded-l-3xl rounded-r-3xl"
               />
-              <article className="text-center text-sm border-2 border-dotted border-green-500 rounded-3xl mt-10 p-5 bg-[#073763] w-[200px] h-[300px] flex justify-center items-center">
+              <article
+                className="text-center text-sm border-2 border-dotted border-green-500 rounded-3xl mt-10 p-5 bg-[#073763] 
+              w-[300px] lg:w-[200px] h-[300px] flex justify-center items-center"
+              >
                 <p className="pt-10">
                   We have specialized personnel for support and operation in our
                   Datas Centers.
@@ -197,7 +207,7 @@ const InternetSolutions = () => {
           </div>
         </div>
       </div>
-    </>
+    </Layout>
   );
 };
 
