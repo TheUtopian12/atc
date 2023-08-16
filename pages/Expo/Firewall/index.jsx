@@ -19,7 +19,7 @@ const Firewall = () => {
           <h1 className="pt-10 text-3xl lg:text-5xl text-center">
             Work securely and always connected
           </h1>
-          <h2 className="pt-10 text-3xl lg:text-6xl text-center">Firewall</h2>
+          <h2 className="pt-2 text-3xl lg:text-6xl text-center">Firewall</h2>
         </div>
       </div>
       <div className="lg:h-screen  bg-center bg-cover imgBgExpo_8 relative">
