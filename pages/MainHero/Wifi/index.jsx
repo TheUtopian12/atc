@@ -176,7 +176,7 @@ const Wifi = () => {
               <Image
                 src={Wifi_logo_2}
                 alt="Wifi logo"
-                className="lg:w-[600px] border-2 rounded-[60px] border-green-500"
+                className="lg:w-[400px] border-[5px] p-3 rounded-[60px] border-green-500"
               />
               <div className="grid grid-cols-2 gap-10">
                 <Image src={Ubiquiti} className="lg:w-48" alt="Logos Wifi" />

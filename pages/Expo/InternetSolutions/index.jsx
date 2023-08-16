@@ -1,11 +1,20 @@
 import Image from "next/image";
-import Internet from "@/public/assets/img/InternetSolutions/internet.webp";
+import Internet from "@/public/assets/img/InternetSolutions/internet.jpg";
 
 import Mype from "@/public/assets/img/InternetSolutions/mype.jpg";
 
 import Event from "@/public/assets/img/InternetSolutions/Conference.jpg";
 
 import Satellite from "@/public/assets/img/InternetSolutions/satelital.webp";
+
+import Firewall from "@/public/assets/img/InternetSolutions/Imagen FireWall.jpg";
+import Voip from "@/public/assets/img/InternetSolutions/Imagen VoIP.jpg";
+import Sdwan from "@/public/assets/img/InternetSolutions/Imagen Sdwan.png";
+import Vpn from "@/public/assets/img/InternetSolutions/Imagen VPN.jpg";
+import DataCenter from "@/public/assets/img/InternetSolutions/Imagen data center.jpg";
+
+import Link from "next/link";
+
 import Layout from "@/layout/Layout";
 
 const InternetSolutions = () => {
@@ -19,13 +28,15 @@ const InternetSolutions = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 pt-5 gap-10">
             <div className="grid place-items-center">
               <h2 className="text-2xl font-bold  text-green-500">Dedicated</h2>
-              <Image
-                src={Internet}
-                alt="Internet"
-                className="w-[300px] lg:w-[200px] rounded-l-3xl rounded-r-3xl"
-              />
+              <Link href="/Expo/Dedicated">
+                <Image
+                  src={Internet}
+                  alt="Internet"
+                  className="w-[300px] lg:w-[200px] rounded-l-3xl rounded-r-3xl"
+                />
+              </Link>
               <article
-                className="text-center text-sm border-2 border-dotted border-green-500
+                className="text-center text-sm border-[5px] border-dotted border-green-500
              rounded-3xl mt-10 p-5 bg-[#073763] w-[300px] lg:w-[250px] h-[400px]"
               >
                 <p className="pt-10">
@@ -42,13 +53,15 @@ const InternetSolutions = () => {
             </div>
             <div className="grid place-items-center">
               <h2 className="text-2xl font-bold text-green-500">MyPE</h2>
-              <Image
-                src={Mype}
-                alt="Mype"
-                className="w-[300px] lg:w-[200px] rounded-l-3xl rounded-r-3xl"
-              />
+              <Link href="/Expo/MyPe">
+                <Image
+                  src={Mype}
+                  alt="Mype"
+                  className="w-[300px] lg:w-[200px] rounded-l-3xl rounded-r-3xl"
+                />
+              </Link>
               <article
-                className="text-center text-sm border-2 border-dotted border-green-500 rounded-3xl mt-10 p-5 bg-[#073763]
+                className="text-center text-sm border-[5px] border-dotted border-green-500 rounded-3xl mt-10 p-5 bg-[#073763]
                 w-[300px] lg:w-[250px] h-[400px]"
               >
                 <p className="pt-10">
@@ -61,14 +74,16 @@ const InternetSolutions = () => {
               </article>
             </div>
             <div className="grid place-items-center ">
-              <h2 className="text-2xl font-bold text-green-500">Satelital</h2>
-              <Image
-                src={Satellite}
-                alt="Satellite"
-                className="w-[400px] lg:w-[200px] rounded-l-3xl rounded-r-3xl"
-              />
+              <h2 className="text-2xl font-bold text-green-500">Satellite</h2>
+              <Link href="/Expo/Satellite">
+                <Image
+                  src={Satellite}
+                  alt="Satellite"
+                  className="w-[400px] lg:w-[200px] rounded-l-3xl rounded-r-3xl"
+                />
+              </Link>
               <article
-                className="text-center text-sm border-2 border-dotted border-green-500 rounded-3xl mt-10 p-5 bg-[#073763]
+                className="text-center text-sm border-[5px] border-dotted border-green-500 rounded-3xl mt-10 p-5 bg-[#073763]
                 w-[300px] lg:w-[250px] h-[400px]
             "
               >
@@ -87,13 +102,15 @@ const InternetSolutions = () => {
               <h2 className="text-2xl font-bold  text-green-500">
                 Internet for events
               </h2>
-              <Image
-                src={Event}
-                alt="Eventos"
-                className="w-[300px] lg:w-[200px] rounded-l-3xl rounded-r-3xl"
-              />
+              <Link href="/Expo/Events">
+                <Image
+                  src={Event}
+                  alt="Eventos"
+                  className="w-[300px] lg:w-[200px] rounded-l-3xl rounded-r-3xl"
+                />
+              </Link>
               <article
-                className="text-center text-sm border-2 border-dotted border-green-500 rounded-3xl mt-10 p-5 bg-[#073763] 
+                className="text-center text-sm border-[5px] border-dotted border-green-500 rounded-3xl mt-10 p-5 bg-[#073763] 
               w-[300px] lg:w-[250px] h-[400px]"
               >
                 <p className="pt-10">
@@ -117,13 +134,15 @@ const InternetSolutions = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-5 pt-5 gap-10">
             <div className="grid place-items-center ">
               <h2 className="text-2xl font-bold  text-green-500">Firewall</h2>
-              <Image
-                src={Internet}
-                alt="Internet"
-                className="w-[300px] lg:w-[200px]  rounded-l-3xl rounded-r-3xl"
-              />
+              <Link href="/Expo/Firewall">
+                <Image
+                  src={Firewall}
+                  alt="Internet"
+                  className="w-[300px] lg:w-[200px]  rounded-l-3xl rounded-r-3xl"
+                />
+              </Link>
               <article
-                className="text-center text-sm border-2 border-dotted border-green-500
+                className="text-center text-sm border-[5px] border-dotted border-green-500
              rounded-3xl mt-10 p-5 bg-[#073763] w-[300px] lg:w-[200px] h-[300px] flex justify-center items-center"
               >
                 <p className="pt-10 ">
@@ -134,13 +153,15 @@ const InternetSolutions = () => {
             </div>
             <div className="grid place-items-center">
               <h2 className="text-2xl font-bold text-green-500">VoIP</h2>
-              <Image
-                src={Mype}
-                alt="Mype"
-                className="w-[300px] lg:w-[200px]  rounded-l-3xl rounded-r-3xl"
-              />
+              <Link href="/Expo/VoIP">
+                <Image
+                  src={Voip}
+                  alt="Mype"
+                  className="w-[300px] lg:w-[200px]  rounded-l-3xl rounded-r-3xl"
+                />
+              </Link>
               <article
-                className="text-center text-sm border-2 border-dotted border-green-500 rounded-3xl mt-10 p-5 bg-[#073763]
+                className="text-center text-sm border-[5px] border-dotted border-green-500 rounded-3xl mt-10 p-5 bg-[#073763]
              w-[300px] lg:w-[200px] h-[300px] flex justify-center items-center"
               >
                 <p className="pt-10">
@@ -151,13 +172,15 @@ const InternetSolutions = () => {
             </div>
             <div className="grid place-items-center ">
               <h2 className="text-2xl font-bold text-green-500">SDWAN</h2>
-              <Image
-                src={Satellite}
-                alt="Satellite"
-                className="w-[300px] lg:w-[200px]  rounded-l-3xl rounded-r-3xl"
-              />
+              <Link href="/Expo/Sdwan">
+                <Image
+                  src={Sdwan}
+                  alt="Satellite"
+                  className="w-[300px] lg:w-[200px] lg:h-[140px] rounded-l-3xl rounded-r-3xl"
+                />
+              </Link>
               <article
-                className="text-center text-sm border-2 border-dotted border-green-500 rounded-3xl mt-10 p-5 bg-[#073763]
+                className="text-center text-sm border-[5px] border-dotted border-green-500 rounded-3xl mt-10 p-5 bg-[#073763]
             w-[300px] lg:w-[200px] h-[300px] flex justify-center items-center
             "
               >
@@ -170,13 +193,15 @@ const InternetSolutions = () => {
               <h2 className="text-2xl font-bold  text-green-500">
                 Virtual Network
               </h2>
-              <Image
-                src={Event}
-                alt="Eventos"
-                className="w-[300px] lg:w-[200px]  rounded-l-3xl rounded-r-3xl"
-              />
+              <Link href="/Expo/Vpn">
+                <Image
+                  src={Vpn}
+                  alt="Eventos"
+                  className="w-[300px] lg:w-[200px]  rounded-l-3xl rounded-r-3xl"
+                />
+              </Link>
               <article
-                className="text-center text-sm border-2 border-dotted border-green-500 rounded-3xl mt-10 p-5 bg-[#073763]
+                className="text-center text-sm border-[5px] border-dotted border-green-500 rounded-3xl mt-10 p-5 bg-[#073763]
                w-[300px] lg:w-[200px] h-[300px] flex justify-center items-center"
               >
                 <p className="pt-10">
@@ -189,13 +214,15 @@ const InternetSolutions = () => {
               <h2 className="text-2xl font-bold  text-green-500">
                 Data Center
               </h2>
-              <Image
-                src={Event}
-                alt="Eventos"
-                className="w-[300px] lg:w-[200px]  rounded-l-3xl rounded-r-3xl"
-              />
+              <Link href="/Expo/DataCenter">
+                <Image
+                  src={DataCenter}
+                  alt="Eventos"
+                  className="w-[300px] lg:w-[200px] h-[130px]  rounded-l-3xl rounded-r-3xl"
+                />
+              </Link>
               <article
-                className="text-center text-sm border-2 border-dotted border-green-500 rounded-3xl mt-10 p-5 bg-[#073763] 
+                className="text-center text-sm border-[5px] border-dotted border-green-500 rounded-3xl mt-10 p-5 bg-[#073763] 
               w-[300px] lg:w-[200px] h-[300px] flex justify-center items-center"
               >
                 <p className="pt-10">

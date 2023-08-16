@@ -50,7 +50,7 @@ const Estructurado = () => {
         </section>
         <section className="bg-[url('/assets/img/Backgrounds/cableado_estructurado_low.jpg')] bg-cover pb-10 relative h-[150vh] 2xl:h-[110vh]">
           <div className="absolute 2xl:hidden top-0 left-0 right-0 bottom-0 bg-black/70 z-[2]" />
-          <div className="absolute container text-white text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-center 2xl:right-0 pt-36 z-[2]">
+          <div className="absolute container text-center text-white text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-center 2xl:right-10 pt-36 z-[2]">
             <h1 className="mb-12 font-bold text-3xl lg:text-6xl">
               Structured cabling
             </h1>

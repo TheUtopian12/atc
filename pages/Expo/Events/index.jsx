@@ -9,8 +9,9 @@ import Layout from "@/layout/Layout";
 const Events = () => {
   return (
     <Layout>
-      <div className="h-screen bg-fixed bg-center bg-cover imgBgExpo_8 relative">
-        <div className="pt-10 container mx-auto text-center lg:text-left text-white text-lg sm:text-xl md:text-2xl lg:text-3xl px-10">
+      <div className="h-screen bg-fixed bg-center bg-cover bgEvents bg-[#072c53] relative">
+        <div className="absolute top-0 left-0 right-0 bottom-0 bg-black/70 z-[2]" />
+        <div className="absolute pt-10 container mx-auto text-center lg:text-left text-white text-lg sm:text-xl md:text-2xl lg:text-3xl px-10 z-[2]">
           <h1 className="pt-10 text-3xl lg:text-5xl text-center">
             Internet for your event
           </h1>
@@ -26,7 +27,7 @@ const Events = () => {
             WiFi network design. br On-site support.
           </div>
 
-          <div className="mt-10 lg:absolute top-[40%] right-16 rounded-3xl border-0 m-2 p-2 bg-[#484c7c]">
+          <div className="mt-10 lg:absolute top-[40%] lg:top-[80%] right-16 rounded-3xl border-0 m-2 p-2 bg-[#484c7c]">
             <p>Capacity, flexibility and high availability</p>
           </div>
         </div>
@@ -36,13 +37,13 @@ const Events = () => {
           <h1 className="pt-10 text-3xl lg:text-5xl text-center">Events</h1>
 
           <div
-            className="mt-10 lg:mt-524 rounded-3xl  m-2 p-2 bg-[#484c7c]
+            className="mt-10 lg:mt-52 rounded-3xl m-2 p-2 bg-[#484c7c]
            lg:w-[30%] lg:-translate-x-[100px] 2xl:w-[20%] 2xl:-translate-x-[100px]"
           >
             <p className="lg:text-right">Types of services:</p>
           </div>
 
-          <div className="grid place-items-center gap-10 mt-40 lg:flex justify-evenly">
+          <div className="grid place-items-center gap-10 mt-40 lg:mt-20 lg:flex justify-evenly">
             <Image
               src={EventsCarousel1}
               alt="Events"

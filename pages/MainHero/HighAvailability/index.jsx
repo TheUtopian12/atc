@@ -1,6 +1,6 @@
 import Image from "next/image";
 import ServiceBadge from "@/components/ServiceBadge";
-import Disponibilidad from "@/public/assets/img/HighAvailability/3_altadisponibilidad.png";
+import Disponibilidad from "@/public/assets/img/HighAvailability/3blanco_altadisponibilidad.png";
 import SDWAN from "@/public/assets/img/HighAvailability/3_altadisponibilidad_sdwan.png";
 import Peplink from "@/public/assets/img/HighAvailability/logos/logo peplink.png";
 import Mikro from "@/public/assets/img/HighAvailability/logos/MikroTik_Logo_(2022).svg.png";
@@ -98,7 +98,10 @@ const HighAvailability = () => {
 
           <article className="grid grid-cols-1 lg:flex justify-center items-center pt-16 gap-20 pb-20 ">
             <Image src={SDWAN} alt="Micro" className="w-[850px]" />
-            <div className="grid grid-cols-1 place-items-center gap-2 lg:border-2 lg:rounded-3xl xl:rounded-[80px] lg:w-[600px] lg:h-[600px]">
+            <div
+              className="grid grid-cols-1 place-items-center 
+            gap-2 lg:border-[5px] lg:rounded-3xl xl:rounded-[80px] lg:w-[600px] lg:h-[600px]"
+            >
               <Image src={Orquestador} alt={"Orquestador"} className="w-56" />
               <Image src={Peplink} alt={"Peplink"} className="w-56" />
               <Image src={Mikro} alt={"Mikro"} className="w-56" />

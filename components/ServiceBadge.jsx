@@ -9,7 +9,7 @@ const ServiceBadge = ({ title, image }) => {
         width={200}
         height={200}
         alt="Servicio"
-        className="z-50 w-20 h-20 lg:w-40 lg:h-40"
+        className="z-50 w-16 h-16 lg:w-20 lg:h-20"
       />
     </div>
   );

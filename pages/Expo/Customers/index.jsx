@@ -7,11 +7,15 @@ const Customers = () => {
     <Layout>
       {" "}
       <div className="h-screen xl:h-[110vh] bg-fixed bg-center bg-cover imgBgExpo_8">
-        <div className="pt-10  container mx-auto text-center lg:text-left text-white text-lg sm:text-xl md:text-2xl lg:text-3xl px-10">
+        <div className="pt-10  container mx-auto text-center lg:text-left text-white text-lg sm:text-xl md:text-2xl lg:text-3xl lg:px-10">
           <h1 className="pt-10 text-3xl lg:text-5xl text-center">Customers</h1>
 
           <section>
-            <Image src={Logos} alt="Logos Clientes" />
+            <Image
+              src={Logos}
+              alt="Logos Clientes"
+              className="w-[390px] lg:w-[auto]"
+            />
           </section>
         </div>
       </div>

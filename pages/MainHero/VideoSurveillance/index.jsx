@@ -1,7 +1,18 @@
 import ServiceBadge from "@/components/ServiceBadge";
 import Image from "next/image";
-import VideoVigilacia_1 from "../../../public/assets/img/VideoVigilancia/video vigilancia 2.png";
-import VideoVigilacia_2 from "../../../public/assets/img/VideoVigilancia/videovigilancia.png";
+import VideoVigilacia_2 from "./img/imagen videovigilancia.png";
+import VideoVigilacia_3 from "./img/imagen videovigilancia 2.png";
+import VideoVigilacia_4 from "./img/imagen videovigilancia 3.png";
+
+import VideoVigilacia_5 from "./img/imagen videovigilancia1.png";
+import VideoVigilacia_6 from "./img/imagen videovigilancia2.png";
+import VideoVigilacia_7 from "./img/imagen videovigilancia3.png";
+import VideoVigilacia_8 from "./img/video vigilancia 2.png";
+
+import logo1 from "./img/Dahua_Technology_logo.svg.png";
+import logo2 from "./img/hikvision.png";
+import logo3 from "./img/logo tplink blanco.png";
+import logo4 from "./img/Logo ubiquiti.png";
 import Layout from "@/layout/Layout";
 
 const VideoSurveillance = () => {
@@ -26,8 +37,10 @@ const VideoSurveillance = () => {
             </p>
           </div>
 
-          <section className="flex justify-center items-center pt-32 gap-2 ">
-            <Image src={VideoVigilacia_2} alt="VideoVigilancia" />
+          <section className="grid place-items-center  lg:flex justify-center items-center pt-32 gap-2 ">
+            <Image src={VideoVigilacia_2} alt="Video" />
+            <Image src={VideoVigilacia_3} alt="Video" />
+            <Image src={VideoVigilacia_4} alt="Video" />
           </section>
         </section>
 
@@ -45,22 +58,47 @@ const VideoSurveillance = () => {
             </p>
           </div>
 
-          <section className=" pt-32 gap-2 ">
-            <div className="relative">
-              <span className="text-green-500 font-bold absolute left-[0] lg:text-lg -top-10">
+          <section className="grid place-items-center lg:flex justify-center pt-32 gap-2 ">
+            <div>
+              <p className="text-green-500 font-bold text-center text-xl">
                 Line Crossing Detection
-              </span>
-              <span className="text-green-500 font-bold absolute  left-[0] lg:text-lg -top-10">
-                Intrusion Detection
-              </span>
-              <span className="text-green-500 font-bold absolute  left-[0] lg:text-lg -top-10">
-                Motion Detection
-              </span>
-              <span className="text-green-500 font-bold absolute  left-[0] lg:text-lg -top-10">
-                Human Detection
-              </span>
+              </p>
+              <Image src={VideoVigilacia_5} alt="Video" />
             </div>
-            <Image src={VideoVigilacia_1} alt="VideoVigilancia" />
+            <div>
+              <p className="text-green-500 font-bold text-center text-xl">
+                Intrusion Detection
+              </p>
+              <Image src={VideoVigilacia_6} alt="Video" />
+            </div>
+
+            <div>
+              <p className="text-green-500 font-bold text-center text-xl">
+                Motion Detection
+              </p>
+              <Image src={VideoVigilacia_7} alt="Video" />
+            </div>
+
+            <div>
+              <p className="text-green-500 font-bold text-center text-xl">
+                Human Detection
+              </p>{" "}
+              <Image
+                src={VideoVigilacia_8}
+                alt="Video"
+                className="w-[350px] h-[170px]"
+              />
+            </div>
+          </section>
+
+          <section className="grid space-y-10 lg:space-x-0 lg:flex justify-evenly items-center pt-10">
+            <Image src={logo1} alt="Logos" className="w-44" />
+
+            <Image src={logo2} alt="Logos" className="w-44 " />
+
+            <Image src={logo3} alt="Logos" className="w-44" />
+
+            <Image src={logo4} alt="Logos" className="w-44" />
           </section>
         </section>
       </Layout>
