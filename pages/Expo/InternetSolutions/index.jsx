@@ -11,7 +11,7 @@ import Firewall from "@/public/assets/img/InternetSolutions/Imagen FireWall.jpg"
 import Voip from "@/public/assets/img/InternetSolutions/Imagen VoIP.jpg";
 import Sdwan from "@/public/assets/img/InternetSolutions/Imagen Sdwan.png";
 import Vpn from "@/public/assets/img/InternetSolutions/Imagen VPN.jpg";
-import DataCenter from "@/public/assets/img/InternetSolutions/Imagen_data_center.jpg";
+import DataCenter from "@/public/assets/img/InternetSolutions/imagen_data_center.jpg";
 
 import Link from "next/link";
 
