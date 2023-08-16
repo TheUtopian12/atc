@@ -14,16 +14,16 @@ import Layout from "@/layout/Layout";
 const Firewall = () => {
   return (
     <Layout>
-      <div className="h-screen bg-fixed bg-center bg-cover imgBgExpo_13 relative">
+      <div className="h-screen  bg-center bg-cover imgBgExpo_13 relative">
         <div className="container mx-auto text-center lg:text-left text-white text-lg sm:text-xl md:text-2xl lg:text-3xl px-10 pt-10">
           <h1 className="pt-10 text-3xl lg:text-5xl text-center">
             Work securely and always connected
           </h1>
-          <h2 className="pt-10 text-xl lg:text-4xl text-center">Firewall</h2>
+          <h2 className="pt-10 text-3xl lg:text-6xl text-center">Firewall</h2>
         </div>
       </div>
-      <div className="lg:h-screen bg-fixed bg-center bg-cover imgBgExpo_8 relative">
-        <div className="container mx-auto text-center lg:text-center text-white text-lg sm:text-xl md:text-2xl lg:text-3xl px-10">
+      <div className="lg:h-screen  bg-center bg-cover imgBgExpo_8 relative">
+        <div className="container mx-auto text-center lg:text-center text-white text-lg sm:text-xl md:text-2xl lg:text-3xl pb-10 px-10">
           <h1 className="pt-10 text-3xl lg:text-5xl text-left">
             Simple, modern and reliable
           </h1>
@@ -48,34 +48,35 @@ const Firewall = () => {
               Increase the productivity of your business.
             </span>
             <br />
+            <br />
 
-            <span className="bg-[#7af5b1] hidden lg:block rounded-3xl px-10 text-black">
+            <span className="bg-[#7af5b1]  rounded-3xl px-10 text-black">
               Includes:
             </span>
 
-            <Image
-              src={Firewall3}
-              className="hidden lg:block w-[15%] mt-10"
-              alt="Graficas"
-            />
+            <Image src={Firewall3} className=" w-[100%] mt-10" alt="Graficas" />
           </div>
         </div>
       </div>
 
-      <div className="lg:h-screen  bg-center bg-cover imgBgExpo_14 relative ">
-        <div className="container mx-auto text-center lg:text-left text-white text-lg sm:text-xl md:text-2xl lg:text-3xl px-10">
-          <span className="text-4xl lg:absolute top-[40%] w-[30%] text-center">
+      <div className="h-[59vh] lg:h-screen  bg-center bg-cover imgBgExpo_14 relative ">
+        <div className="absolute lg:hidden top-0 left-0 right-0 bottom-0 bg-black/70 z-[2]" />
+        <div
+          className="absolute lg:w-[40%] top-[40%] container  text-center lg:text-left text-white text-lg 
+        sm:text-xl md:text-2xl lg:text-3xl px-10 z-[2]"
+        >
+          <span className="text-4xl ">
             The only unified threat management tool managed 100% through the
             cloud.
             <p className="h-[2px] bg-red-600"></p>
           </span>
         </div>
       </div>
-      <div className="h-screen bg-fixed bg-center bg-cover imgBgExpo_8 relative">
-        <div className="container mx-auto text-center lg:text-left text-white text-lg sm:text-xl md:text-2xl lg:text-3xl px-10">
+      <div className="lg:h-screen bg-fixed bg-center bg-cover imgBgExpo_8 relative">
+        <div className="container mx-auto text-center lg:text-left text-white text-lg sm:text-xl md:text-2xl lg:text-3xl px-10 ">
           <h1 className="pt-10 text-3xl lg:text-5xl text-center">Benefits</h1>
-          <div className="flex justify-center items-center">
-            <Image src={Firewall4} alt="BENEFICIOS" />
+          <div className="flex justify-center items-center pt-10">
+            <Image src={Firewall4} alt="BENEFICIOS" className="w-[100%]" />
           </div>
         </div>
       </div>

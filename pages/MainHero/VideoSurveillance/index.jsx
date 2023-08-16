@@ -28,7 +28,7 @@ const VideoSurveillance = () => {
             <h1 className="pb-12 font-bold text-3xl lg:text-6xl">
               Video surveillance
             </h1>
-            <p className="pt-0 container mx-auto">
+            <p className="pt-0 mx-5 lg:container lg:mx-auto">
               Nowadays, having a closed circuit camera system in our company or
               home undoubtedly gives us a sense of tranquility and security, not
               only to record thefts or any incident, but with new technologies
@@ -49,7 +49,7 @@ const VideoSurveillance = () => {
             <h1 className="pb-12 font-bold text-3xl lg:lg:text-6xl">
               Video surveillance
             </h1>
-            <p className="pt-12 container mx-auto">
+            <p className="pt-12 mx-5 lg:container lg:mx-auto">
               With our video surveillance solutions you will have the support of
               the best brands and technologies specialized in video security and
               artificial intelligence, with internet access from one or more

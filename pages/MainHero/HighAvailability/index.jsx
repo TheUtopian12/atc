@@ -22,7 +22,7 @@ const HighAvailability = () => {
                 High availability
               </h1>
             </div>
-            <article className="mt-5 lg:mr-28 lg:w-[1000px] ">
+            <article className="mt-5 lg:mr-28 lg:w-[1000px] mx-5 ">
               <p className="container mx-auto">
                 Nowadays, a company has at least two internet services to
                 protect its operation or at least its critical services or
@@ -51,7 +51,7 @@ const HighAvailability = () => {
             </div>
             <article className="">
               <div className=" text-white text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl text-center pt-14 ">
-                <article className="container mx-auto 2xl:w-[60%]">
+                <article className=" lg:mx-auto 2xl:w-[60%] mx-5">
                   <h2 className="mb-12">Service process:</h2>
                   <p className="mb-12">
                     <span className="text-green-500 font-bold">1.</span>{" "}

@@ -13,10 +13,10 @@ const History = () => {
             Internet solutions for remote, urban and rural areas.
           </p>
           <p className="pt-10 lg:pr-28">
-            Over 23 years of experience, a team of first-rate experts and
-            certifications, supported by our own network of radio bases and data
-            centers, position us as the leading wireless Internet company in
-            Mexico.
+            <span className="font-extrabold">Over 23 years of experience</span>,
+            a team of first-rate experts and certifications, supported by our
+            own network of radio bases and data centers, position us as the
+            leading wireless Internet company in Mexico.
           </p>
           <h2 className="pt-10">Our competences:</h2>
           <p className="pt-10 lg:pr-28">

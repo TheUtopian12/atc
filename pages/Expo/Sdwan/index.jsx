@@ -47,25 +47,25 @@ const Sdwan = () => {
           Sdwan
         </h1>
         <div className="grid lg:grid-cols-4 place-items-center justify-items-center mt-24">
-          <div className="romboBg bg-cover bg-no-repeat flex justify-center items-center w-[300px] h-[273px] px-11 text-white">
+          <div className="romboBg text-center bg-cover bg-no-repeat flex justify-center items-center w-[300px] h-[273px] px-11 text-white">
             Ensures the continuity of your operation in the cloud
           </div>
-          <div className="romboBg bg-cover bg-no-repeat flex justify-center items-center w-[300px] h-[273px] px-11 text-white">
+          <div className="romboBg text-center  bg-cover bg-no-repeat flex justify-center items-center w-[300px] h-[273px] px-11 text-white">
             Increases the availability of your internet
           </div>
-          <div className="romboBg bg-cover bg-no-repeat flex justify-center items-center w-[300px] h-[273px] px-11 text-white">
+          <div className="romboBg text-center  bg-cover bg-no-repeat flex justify-center items-center w-[300px] h-[273px] px-11 text-white">
             Connect your branches
           </div>
-          <div className="romboBg bg-cover bg-no-repeat flex justify-center items-center w-[300px] h-[273px] px-11 text-white">
+          <div className="romboBg text-center  bg-cover bg-no-repeat flex justify-center items-center w-[300px] h-[273px] px-11 text-white">
             Optimization your network
           </div>
-          <div className="romboBg bg-cover bg-no-repeat flex justify-center items-center w-[300px] h-[273px] px-11 text-white">
+          <div className="romboBg text-center  bg-cover bg-no-repeat flex justify-center items-center w-[300px] h-[273px] px-11 text-white">
             Add your links from the Internet
           </div>
-          <div className="romboBg bg-cover bg-no-repeat flex justify-center items-center w-[300px] h-[273px] px-11 text-white">
+          <div className="romboBg text-center  bg-cover bg-no-repeat flex justify-center items-center w-[300px] h-[273px] px-11 text-white">
             We monitor your Internet links
           </div>
-          <div className="romboBg bg-cover bg-no-repeat flex justify-center items-center w-[300px] h-[273px] px-11 text-white">
+          <div className="romboBg text-center  bg-cover bg-no-repeat flex justify-center items-center w-[300px] h-[273px] px-11 text-white">
             Single IP
           </div>
         </div>
@@ -121,13 +121,15 @@ const Sdwan = () => {
         <h2 className=" lg:ml-10 text-xl lg:text-2xl text-center  text-white">
           We prioritize by type of data.
         </h2>
-
-        <div className="grid place-items-center lg:flex items-center justify-center gap-10">
-          <p className="text-white">Supplier 1</p>
+        <h2 className="text-lg text-white text-center pt-10 -mb-8 lg:hidden">
+          Supplier 1
+        </h2>
+        <div className="flex items-center justify-center lg:gap-10">
+          <p className="text-white hidden lg:block">Supplier 1</p>
           <Image src={Wifi} className="w-[50px] h-[50px]" alt="SDWAN GRAPH" />
           <Image
             src={Cadena}
-            className=" w-[50px]  h-[25px] lg:w-[100px]  lg:h-[50px] rotate-90 lg:rotate-0"
+            className=" w-[50px]  h-[25px] lg:w-[100px]  lg:h-[50px]"
             alt="SDWAN GRAPH"
           />
           <div>
@@ -145,7 +147,7 @@ const Sdwan = () => {
               alt="SDWAN GRAPH"
             />
           </div>
-          <div className=" flex lg:grid">
+          <div className="grid">
             <Image
               src={Compu}
               className="w-[50px] h-[50px]"
@@ -163,28 +165,30 @@ const Sdwan = () => {
             />
           </div>
         </div>
-
-        <div className="grid place-items-center lg:flex items-center justify-center gap-10 pt-10">
-          <p className="text-white">Supplier 2</p>
-          <div className="flex lg:grid">
+        <h2 className="text-lg text-white text-center pt-10 -mb-10 lg:hidden">
+          Supplier 2
+        </h2>
+        <div className="flex items-center justify-center lg:gap-10 pt-10">
+          <p className="text-white hidden lg:block">Supplier 2</p>
+          <div className="grid">
             <Image src={Wifi} className="w-[50px] h-[50px]" alt="SDWAN GRAPH" />
             <Image src={Wifi} className="w-[50px] h-[50px]" alt="SDWAN GRAPH" />
             <Image src={Wifi} className="w-[50px] h-[50px]" alt="SDWAN GRAPH" />
           </div>
-          <div className="flex lg:grid">
+          <div className="grid">
             <Image
               src={Cadena}
-              className="w-[50px]  h-[25px] lg:w-[100px]  lg:h-[50px] rotate-90 lg:rotate-0"
+              className="w-[50px]  h-[25px] lg:w-[100px]  lg:h-[50px] "
               alt="SDWAN GRAPH"
             />{" "}
             <Image
               src={Cadena}
-              className="w-[50px]  h-[25px] lg:w-[100px]  lg:h-[50px] rotate-90 lg:rotate-0"
+              className="w-[50px]  h-[25px] lg:w-[100px]  lg:h-[50px] "
               alt="SDWAN GRAPH"
             />{" "}
             <Image
               src={Cadena}
-              className="w-[50px]  h-[25px] lg:w-[100px]  lg:h-[50px] rotate-90 lg:rotate-0"
+              className="w-[50px]  h-[25px] lg:w-[100px]  lg:h-[50px] "
               alt="SDWAN GRAPH"
             />
           </div>
@@ -224,7 +228,7 @@ const Sdwan = () => {
         </div>
 
         <div>
-          <p className="text-white text-center text-xl pt-10">
+          <p className="text-white text-center text-xl pt-10 px-5">
             We provide a quality of service of your total bandwidth.
           </p>
         </div>
@@ -238,17 +242,21 @@ const Sdwan = () => {
           Use inexpensive internet providers and increase the performance of
           your internet connection.
         </p>
-
-        <div className="lg:flex grid justify-center items-center gap-10 mt-10">
+        <h1 className="text-white text-left ml-5 sm:ml-28 translate-y-10 lg:hidden">
+          Supplier
+        </h1>
+        <div className="flex justify-center items-center gap-5 sm:gap-10 mt-10 mx-5">
           <div className="text-white text-xl text-center lg:text-left">
-            <p>Supplier 1</p>
-            <p>Supplier 2 (backing)</p>
+            <p className="lg:hidden">1</p>
+            <p className="lg:hidden">2</p>
+            <p className="hidden lg:block">Supplier 1</p>
+            <p className="hidden lg:block">Supplier 2</p>
           </div>
           <div className="grid gap-2">
-            <div className="w-32 h-10 bg-green-500 text-white text-center rounded-r-xl rounded-l-xl">
+            <div className="w-16 h-8 sm:w-32 sm:h-10 bg-green-500 text-white text-center rounded-r-xl rounded-l-xl">
               20 mbps
             </div>
-            <div className="w-32 h-10 bg-gray-500 text-white text-center rounded-r-xl rounded-l-xl">
+            <div className="w-16 h-8 sm:w-32 sm:h-10 bg-gray-500 text-white text-center rounded-r-xl rounded-l-xl">
               20 mbps
             </div>
           </div>{" "}
@@ -263,11 +271,15 @@ const Sdwan = () => {
             20 mbps
           </div>
         </div>
-
-        <div className="lg:flex grid justify-center items-center gap-10 mt-10">
+        <h1 className="text-white text-left ml-5 sm:ml-28 translate-y-10 lg:hidden">
+          Supplier
+        </h1>
+        <div className="flex justify-center items-center gap-5 sm:gap-10 mt-10 mx-5">
           <div className="text-white text-xl text-left">
-            <p>Supplier 1</p>
-            <p>Supplier 2</p>
+            <p className="lg:hidden">1</p>
+            <p className="lg:hidden">2</p>
+            <p className="hidden lg:block">Supplier 1</p>
+            <p className="hidden lg:block">Supplier 2</p>
           </div>
           <div className="grid gap-2">
             <div className="w-32 h-10 bg-green-500 text-white text-center rounded-r-xl rounded-l-xl">
@@ -285,13 +297,13 @@ const Sdwan = () => {
           flex justify-center items-center
           "
           >
-            20 mbps
+            38 mbps
           </div>
         </div>
       </div>
 
       <div className=" bg-cover imgBgExpo_8 relative pb-24 ">
-        <h1 className="pt-20 lg:ml-10 text-3xl lg:text-5xl text-center text-white">
+        <h1 className="pt-20 lg:ml-10 text-3xl lg:text-5xl text-center text-white px-5">
           Real-time monitoring of your Internet links
         </h1>
 
@@ -308,18 +320,22 @@ const Sdwan = () => {
         </p>
       </div>
 
-      <div className="h-[80vh] lg:h-[100vh] bg-cover bg-center imgBgExpo_18 relative pb-24 ">
-        <h1 className="pt-20 lg:ml-10 text-3xl lg:text-5xl text-center text-white">
-          A single IP
-        </h1>
+      <div className="h-[50vh] lg:h-[100vh] bg-cover bg-center imgBgExpo_18 relative pb-24 ">
+        <div className="absolute lg:hidden top-0 left-0 right-0 bottom-0 bg-black/10 z-[2]" />
 
-        <p className="text-white text-xl lg:text-3xl text-center mx-5 lg:mx-[20%]  lg:mt-28">
-          We facilitate your remote access service connections with a single
-          fixed public IP address, regardless of the providers you are using.
-        </p>
+        <div className="absolute z-[2]">
+          <h1 className="pt-20 lg:ml-10 text-3xl lg:text-5xl text-center text-white ">
+            A single IP
+          </h1>
+
+          <p className="text-white text-xl lg:text-3xl text-center mx-5 lg:mx-[20%]  lg:mt-28">
+            We facilitate your remote access service connections with a single
+            fixed public IP address, regardless of the providers you are using.
+          </p>
+        </div>
       </div>
 
-      <div className="h-[80vh] lg:h-[100vh] bg-cover lg:bg-center imgBgExpo_8 relative pb-24 ">
+      <div className="h-[100vh] lg:h-[100vh] bg-cover lg:bg-center imgBgExpo_8 relative pb-24 ">
         <h1 className="pt-20 lg:ml-10 text-3xl lg:text-5xl text-center lg:text-left text-white">
           Achieves a robust connection
         </h1>

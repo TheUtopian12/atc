@@ -34,7 +34,7 @@ const Wifi = () => {
             </h1>
 
             <article className="grid place-content-center pt-10 sm:pt-32">
-              <div className="container sm:w-[700px] border-[5px] border-white  rounded-3xl lg:-translate-x-40 xl:-translate-x-80 p-8">
+              <div className="mx-10 sm:w-[700px] border-[5px] border-white  rounded-3xl lg:-translate-x-40 xl:-translate-x-80 p-8  ">
                 <p>
                   Wireless networks allow portable devices such as laptops,
                   tablets or cell phones to remain connected and with the
@@ -42,7 +42,7 @@ const Wifi = () => {
                   network.
                 </p>
               </div>
-              <div className="container  sm:w-[700px] border-[5px] border-green-500  rounded-3xl mt-24 lg:translate-x-20 xl:translate-x-52 p-8">
+              <div className="mx-5  sm:w-[700px] border-[5px] border-green-500  rounded-3xl mt-24 lg:translate-x-20 xl:translate-x-52 p-8">
                 <p>
                   Nowadays, it is increasingly common to suffer from poor
                   performance of a wireless network, either by incorrect design,
@@ -65,7 +65,7 @@ const Wifi = () => {
               </h2>
             </div>
             <div className="flex justify-center">
-              <article className="container mx-auto sm:pt-10  lg:w-[1200px]  xl:right-24 z-[2]">
+              <article className="container md:mx-auto sm:pt-10  lg:w-[1200px]  xl:right-24 z-[2] mx-5">
                 <h2 className="mb-12">Service process:</h2>
                 <p className="mb-12">
                   <span className="text-green-500 font-bold">1.</span> Technical
@@ -112,7 +112,7 @@ const Wifi = () => {
               </h2>
             </div>
             <div className="flex justify-center">
-              <article className="pt-10 xl:w-[1200px] absolute ">
+              <article className="pt-10 xl:w-[1200px] absolute mx-5">
                 <p className="mb-12">
                   <span className="text-green-500 font-bold">5.</span> Service
                   delivery <br /> The project is released together with the

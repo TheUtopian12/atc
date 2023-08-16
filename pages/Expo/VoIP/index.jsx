@@ -49,56 +49,59 @@ const VoIP = () => {
         </div>
       </div>
 
-      <div className="2xl:h-screen  bg-center bg-cover imgBgExpo_8 relative ">
-        <h1 className="pt-20 ml-10 text-3xl lg:text-5xl text-left text-white">
-          VoIP
-        </h1>
-        <div className="grid lg:grid-cols-2 2xl:grid-cols-3 place-items-center place-content-center mt-28 text-white">
-          <div className="w-[100%] grid lg:flex gap-5 py-10 px-28">
-            <Image src={VoipIcon1} alt="Icon" className="w-[100px]" />
-            <p className="">Virtual switch</p>
-          </div>
-          <div className="w-[100%] lg:flex gap-5 py-10 px-28">
-            <Image src={VoipIcon2} alt="Icon" className="w-[100px]" />
-            <p className="">
-              Operates over the same network, the telephone sets have 2 network
-              ports (bridging).
-            </p>
-          </div>
-          <div className="w-[100%] lg:flex gap-5 py-10 px-28">
-            <Image src={VoipIcon3} alt="Icon" className="w-[100px]" />
-            <p className="">
-              {" "}
-              Mobile extensions, configure your extension on your mobile
-              devices.
-            </p>
-          </div>
-          <div className="w-[100%] lg:flex gap-5 py-10 px-28">
-            <Image src={VoipIcon4} alt="Icon" className="w-[100px]" />
-            <p className="">
-              Flexibility use your phone extensions in your office, home or
-              wherever you are etc.
-            </p>
-          </div>
-          <div className="w-[100%] lg:flex gap-5 py-10 px-28">
-            <Image src={VoipIcon5} alt="Icon" className="w-[100px]" />
-            <p className="">Reduce your phone bill</p>
-          </div>
-          <div className="w-[100%] lg:flex gap-5 py-10 px-28">
-            <Image src={VoipIcon6} alt="Icon" className="w-[100px]" />
-            <p className="">Call quality</p>
-          </div>
-          <div className="w-[100%] lg:flex gap-5 py-10 px-28">
-            <Image src={VoipIcon7} alt="Icon" className="w-[100px]" />
-            <p className="">Business Service</p>
-          </div>
-          <div className="w-[100%] lg:flex gap-5 py-10 px-28">
-            <Image src={VoipIcon10} alt="Icon" className="w-[100px]" />
-            <p className="">Scalability</p>
-          </div>
-          <div className="w-[100%] lg:flex gap-5 py-10 px-28">
-            <Image src={VoipIcon9} alt="Icon" className="w-[100px]" />
-            <p className="">Online technical support</p>
+      <div className="h-[320vh] sm:h-[220vh] lg:h-[120vh] 2xl:h-screen  bg-center bg-cover imgBgExpo_8 relative ">
+        <div className="absolute lg:hidden top-0 left-0 right-0 bottom-0 bg-black/60 z-[2]" />
+        <div className="absolute z-[2] lg:relative">
+          <h1 className="pt-20 ml-10 text-3xl lg:text-5xl text-left text-white">
+            VoIP
+          </h1>
+          <div className="grid lg:grid-cols-2 2xl:grid-cols-3 place-items-center place-content-center mt-28 text-white">
+            <div className="w-[100%] grid lg:flex gap-5 py-10 px-28">
+              <Image src={VoipIcon1} alt="Icon" className="w-[100px]" />
+              <p className="">Virtual switch</p>
+            </div>
+            <div className="w-[100%] lg:flex gap-5 py-10 px-28">
+              <Image src={VoipIcon2} alt="Icon" className="w-[100px]" />
+              <p className="">
+                Operates over the same network, the telephone sets have 2
+                network ports (bridging).
+              </p>
+            </div>
+            <div className="w-[100%] lg:flex gap-5 py-10 px-28">
+              <Image src={VoipIcon3} alt="Icon" className="w-[100px]" />
+              <p className="">
+                {" "}
+                Mobile extensions, configure your extension on your mobile
+                devices.
+              </p>
+            </div>
+            <div className="w-[100%] lg:flex gap-5 py-10 px-28">
+              <Image src={VoipIcon4} alt="Icon" className="w-[100px]" />
+              <p className="">
+                Flexibility use your phone extensions in your office, home or
+                wherever you are etc.
+              </p>
+            </div>
+            <div className="w-[100%] lg:flex gap-5 py-10 px-28">
+              <Image src={VoipIcon5} alt="Icon" className="w-[100px]" />
+              <p className="">Reduce your phone bill</p>
+            </div>
+            <div className="w-[100%] lg:flex gap-5 py-10 px-28">
+              <Image src={VoipIcon6} alt="Icon" className="w-[100px]" />
+              <p className="">Call quality</p>
+            </div>
+            <div className="w-[100%] lg:flex gap-5 py-10 px-28">
+              <Image src={VoipIcon7} alt="Icon" className="w-[100px]" />
+              <p className="">Business Service</p>
+            </div>
+            <div className="w-[100%] lg:flex gap-5 py-10 px-28">
+              <Image src={VoipIcon10} alt="Icon" className="w-[100px]" />
+              <p className="">Scalability</p>
+            </div>
+            <div className="w-[100%] lg:flex gap-5 py-10 px-28">
+              <Image src={VoipIcon9} alt="Icon" className="w-[100px]" />
+              <p className="">Online technical support</p>
+            </div>
           </div>
         </div>
       </div>

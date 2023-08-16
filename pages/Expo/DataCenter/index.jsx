@@ -24,27 +24,29 @@ const DataCenter = () => {
           </div>
         </div>
       </div>
-      <div className="lg:h-[105vh]  lg:bg-center bg-cover imgBgExpo_22 relative pb-28">
-        <div>
+      <div className="h-[120vh] md:h-[105vh]  lg:bg-center bg-cover imgBgExpo_22 relative pb-28">
+        <div className="absolute lg:hidden top-0 left-0 right-0 bottom-0 bg-black/40 z-[2]" />
+
+        <div className="absolute lg:relative z-[2]">
           <h1 className="pt-[10%] lg:mr-[12%] text-3xl lg:text-5xl text-center lg:text-right text-white lg:text-[#20124d]">
             DATA CENTER
           </h1>
-          <p className="text-2xl pt-10 text-center  lg:ml-[70%] lg:-translate-x-40 text-white lg:text-black">
+          <p className="px-5 text-2xl pt-10 text-center  lg:ml-[70%] lg:-translate-x-40 text-white lg:text-black">
             We have specialized personnel for support and operation in our Data
             Center in Monterrey.
           </p>
           <div
-            className="absolute top-[40%] -right-0  w-80 h-14 bg-yellow-400 text-2xl flex items-center justify-center text-white
+            className="absolute top-[28%] lg:top-[40%] -right-0  w-80 h-14 bg-yellow-400 text-2xl flex items-center justify-center text-white
           rounded-r-none rounded-l-full
           "
           >
             Co-location
           </div>
-          <p className="text-2xl pt-40 text-center  lg:ml-[50%] lg:-translate-x-40 text-white lg:text-black">
+          <p className="px-5 text-2xl pt-40 text-center  lg:ml-[50%] lg:-translate-x-40 text-white lg:text-black">
             Rack or Tower co-location includes:
           </p>
 
-          <div className="text-2xl text-white lg:text-black pt-36 text-center ml-[30%] 2xl:ml-[35%]">
+          <div className="text-2xl text-white lg:text-black pt-32 -translate-y-20 lg:translate-y-10  text-center ml-[0%] lg:ml-[30%] 2xl:ml-[35%]">
             <div className="grid grid-cols-1 lg:grid-cols-3 space-y-2">
               <span>Conditioning</span>
               <span>Technical resources</span>
@@ -56,7 +58,7 @@ const DataCenter = () => {
               <span>Energy</span>
             </div>
           </div>
-          <p className="text-2xl pt-36 text-center text-white lg:text-black lg:ml-[50%] lg:-translate-x-40 lg:space-x-28 lg:space-y-9">
+          <p className="px-5 sm:px-0 text-2xl pt-36 text-center text-white lg:text-black lg:ml-[50%] lg:-translate-x-40 lg:space-x-28 lg:space-y-9">
             Thus, the operator can interconnect to the lessor{"'"}s network or
             facilities.
           </p>

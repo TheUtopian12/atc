@@ -17,7 +17,7 @@ const Interconection = () => {
             <h1 className="pb-12 font-bold text-3xl lg:text-6xl">
               Office interconnection
             </h1>
-            <p className=" container mx-auto">
+            <p className="mx-5 lg:container lg:mx-auto">
               We support the communication of offices in the same campus,
               industrial park or remote locations, relying on our extensive
               network deployment and more than 23 years of experience in the

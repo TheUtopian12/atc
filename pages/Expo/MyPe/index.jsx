@@ -8,7 +8,7 @@ const index = () => {
     <Layout>
       <div className="2xl:h-screen pb-14 bg-fixed lg:bg-center bg-cover imgBgExpo_9">
         <div className="container mx-auto text-center lg:text-left text-white text-lg sm:text-xl md:text-2xl lg:text-3xl px-10 pt-10">
-          <h1 className="pt-10 text-3xl lg:text-5xl lg:text-left">MyPe</h1>
+          <h1 className="pt-10 text-3xl lg:text-5xl lg:text-left">MyPE</h1>
           <p className="pt-14 lg:w-[40%]">
             Tailor-made solution for a micro or small business that requires
             quality internet service at a competitive price.

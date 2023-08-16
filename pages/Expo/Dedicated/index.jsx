@@ -22,7 +22,10 @@ const Dedicated = () => {
             <p>
               Network without oversubscription with 100% bandwidth availability.
             </p>
-            <p>We have the capacity to deliver up to 1 Gb.</p>
+            <p>
+              We have the capacity to <br className="lg:hidden" />
+              deliver up to 1 Gb.
+            </p>
           </section>
         </div>
       </div>

@@ -101,7 +101,7 @@ const Satellite = () => {
         </>
 
         <>
-          <div className="lg:h-screen bg-fixed bg-center bg-cover imgBgExpo_12 pb-10">
+          <div className="lg:h-screen bg-fixed bg-center bg-cover imgBgExpo_12 pt-28 sm:pt-8 pb-10">
             <div className="container mx-auto text-center lg:text-center text-white text-lg sm:text-xl md:text-2xl lg:text-3xl px-10">
               <h1 className=" pt-64 lg:pt-10 text-3xl lg:text-5xl text-center">
                 Monitoring

@@ -18,7 +18,7 @@ const Cybersecurity = () => {
             <ServiceBadge id="5" image="Ciberseguridad_1" />
           </section>
 
-          <div className="absolute lg:left-[10%] top-[15%] text-white text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl text-center pt-16 lg:w-[900px] z-[2]">
+          <div className="mx-5 absolute lg:left-[10%] top-[15%] text-white text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl text-center pt-16 lg:w-[900px] z-[2]">
             <h1 className="pb-5 font-bold text-3xl lg:text-6xl">
               Cybersecurity
             </h1>
@@ -50,7 +50,7 @@ const Cybersecurity = () => {
             </h1>
           </div>
 
-          <article className="lg:flex justify-evenly ">
+          <article className="lg:flex justify-evenly mx-5">
             <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl text-white lg:w-[500px] text-center">
               Don{"'"}t be part of the attack statistics,{" "}
               <span className="font-bold">with our leading brands</span>

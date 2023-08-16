@@ -61,7 +61,7 @@ const Vpn = () => {
       </div>
 
       <div className="h-screen  bg-center bg-cover imgBgExpo_8 relative ">
-        <h1 className="pt-20 lg:ml-10 text-3xl lg:text-5xl text-center lg:text-left  text-white">
+        <h1 className="pt-20 lg:ml-10 text-3xl lg:text-5xl text-center lg:text-left  text-white px-5">
           Continued productivity during contingency time
         </h1>
         <div className="lg:flex justify-center items-center">
@@ -77,13 +77,9 @@ const Vpn = () => {
         </div>
       </div>
 
-      <div className="lg:h-screen  bg-center bg-cover imgBgExpo_8 relative ">
+      <div className="lg:h-screen  bg-center bg-cover imgBgExpo_8 relative pb-10">
         <div className="lg:flex justify-center items-center pt-20">
-          <Image src={Vpn2} alt="icon" className="w-[80%] hidden lg:block" />
-          <Image src={Vpn_2} alt="icon" className="w-[60%] lg:hidden " />
-          <div className="flex justify-end">
-            <Image src={Vpn_1} alt="icon" className="w-[60%] lg:hidden flex " />
-          </div>
+          <Image src={Vpn2} alt="icon" className="lg:w-[80%]  lg:block" />
         </div>
       </div>
     </Layout>
