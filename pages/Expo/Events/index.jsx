@@ -24,7 +24,7 @@ const Events = () => {
             </p>
             Additionally we support you in:
             <br />
-            WiFi network design. br On-site support.
+            WiFi network design. <br /> On-site support.
           </div>
 
           <div className="mt-10 lg:absolute top-[40%] lg:top-[80%] right-16 rounded-3xl border-0 m-2 p-2 bg-[#484c7c]">
