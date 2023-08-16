@@ -219,7 +219,7 @@ const Sidebar = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/Expo/More">
+                  <Link href="/Expo/Contact_Us">
                     {" "}
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -240,7 +240,7 @@ const Sidebar = () => {
                         d="M6.75 6.75h.75v.75h-.75v-.75zM6.75 16.5h.75v.75h-.75v-.75zM16.5 6.75h.75v.75h-.75v-.75zM13.5 13.5h.75v.75h-.75v-.75zM13.5 19.5h.75v.75h-.75v-.75zM19.5 13.5h.75v.75h-.75v-.75zM19.5 19.5h.75v.75h-.75v-.75zM16.5 16.5h.75v.75h-.75v-.75z"
                       />
                     </svg>
-                    More
+                    Contact Us
                   </Link>
                 </li>
               </ul>
